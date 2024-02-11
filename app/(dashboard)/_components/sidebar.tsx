@@ -15,14 +15,14 @@ export const Sidebar = () => {
                     height={160}
                     width={160}
                 />
-                <p className="text-white mt-4 text-2xl font-bold">
+                <p className="mt-4 text-2xl font-bold text-white">
                     YuChun Cheng
                 </p>
                 <div className="mt-6">
                     <ChannelBtn />
                 </div>
             </div>
-            <div className="w-44">
+            <div className="hidden w-44 md:block">
                 <InfoArea />
             </div>
         </div>
