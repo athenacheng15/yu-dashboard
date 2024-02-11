@@ -15,7 +15,7 @@ interface InfoModalStore {
 
 export const useInfoModal = create<InfoModalStore>(set => ({
     infoData: null,
-    isOpen: true,
+    isOpen: false,
     onOpen: (infoData: InfoDataType) => set({ isOpen: true, infoData }),
     onClose: () => set({ isOpen: false, infoData: null }),
 }));
