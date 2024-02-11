@@ -10,9 +10,6 @@ const config = {
     ],
     prefix: '',
     theme: {
-        colors: {
-            'main-green': '#69866C',
-        },
         container: {
             center: true,
             padding: '2rem',
@@ -22,6 +19,10 @@ const config = {
         },
         extend: {
             colors: {
+                'main-green': '#69866C',
+                'main-light-green': '#D9EDDB',
+                'main-dark-green': '#486449',
+                'main-hover-green': '#92AA94',
                 border: 'hsl(var(--border))',
                 input: 'hsl(var(--input))',
                 ring: 'hsl(var(--ring))',
