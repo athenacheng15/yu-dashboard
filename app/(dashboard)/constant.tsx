@@ -8,11 +8,7 @@ export const infoList = [
             {
                 title: 'Email',
                 icon: <Mail className="w-4" />,
-                onClick: (e: React.MouseEvent<HTMLElement>) => {
-                    // TODO:check function
-                    window.open('mailto:athenachengyc15@gmail.com');
-                    e.preventDefault();
-                },
+                onClick: () => {},
             },
             {
                 title: 'Linkedin',
