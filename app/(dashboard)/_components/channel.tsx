@@ -2,7 +2,6 @@
 
 import { Button } from '@/components/ui/button';
 import { Code2, Home } from 'lucide-react';
-import { cn } from '@/lib/utils';
 
 export const ChannelBtn = () => {
     const channelInfo = [
