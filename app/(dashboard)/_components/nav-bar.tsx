@@ -1,7 +1,5 @@
 'use client';
 
-import type { InfoDataType } from '@/hooks/use-info-modal';
-
 import Image from 'next/image';
 import { Send, Globe } from 'lucide-react';
 
