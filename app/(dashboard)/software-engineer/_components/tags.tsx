@@ -19,7 +19,7 @@ export const Tags = () => {
             className="flex justify-start space-x-2"
         >
             {tagItem.map(item => (
-                <ToggleGroupItem value={item.value}>
+                <ToggleGroupItem key={item.value} value={item.value}>
                     {item.label}
                 </ToggleGroupItem>
             ))}
