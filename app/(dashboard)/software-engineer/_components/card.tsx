@@ -1,18 +1,18 @@
 'use client';
-
+import { DisplayRepoType } from '@/type/repositories';
 import { useRouter } from 'next/navigation';
 
 import { Separator } from '@/components/ui/separator';
 
 import { CardFooter } from './card-footer';
 
-export const Card = () => {
+export const Card = ({ repo }: { repo: DisplayRepoType }) => {
     const router = useRouter();
 
     return (
         <div
             className="group col-span-1 cursor-pointer rounded-xl border-2 border-main-green bg-white/70 p-3 hover:bg-[#F2F7F2]/70 sm:p-4"
-            onClick={() => router.push(`/software-engineer`)}
+            onClick={() => router.push(`/software-engineer/${repo.name}`)}
         >
             <div>
                 <div className="flex w-full flex-col gap-2">
@@ -22,20 +22,19 @@ export const Card = () => {
                             <div className="h-full w-full bg-neutral-300"></div>
                         </div>
                         <div className="flex grow sm:hidden">
-                            <CardFooter />
+                            <CardFooter repo={repo} />
                         </div>
                     </div>
                     <p className="text-xl font-medium text-main-green">
-                        Airbnb Clone
+                        {repo.name}
                     </p>
                     <p className="text-sm font-medium text-neutral-500">
-                        This is a full-stack project exercise using NEXT.JS as
-                        the framework refer to the video of code with Antonio
+                        {repo.description}
                     </p>
                 </div>
                 <div className="hidden sm:flex sm:flex-col sm:gap-2">
                     <Separator className="my-2" />
-                    <CardFooter />
+                    <CardFooter repo={repo} />
                 </div>
             </div>
         </div>

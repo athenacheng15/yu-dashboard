@@ -1,0 +1,18 @@
+{
+    "airbnb-clone": {
+        "tags": ["next.js", "prisma", "tailwind-css"],
+        "imageUrl": ""
+    },
+    "trello-clone": {
+        "tags": ["next.js", "prisma", "tailwind-css"],
+        "imageUrl": ""
+    },
+    "github-issues-clone": {
+        "tags": ["next.js", "prisma", "tailwind-css"],
+        "imageUrl": ""
+    },
+    "yu-dashboard": {
+        "tags": ["next.js", "prisma", "tailwind-css"],
+        "imageUrl": ""
+    }
+}
