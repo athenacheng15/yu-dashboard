@@ -10,7 +10,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
             <ModalProvider />
             <div className="h-full">
                 <Navbar />
-                <main className="h-full 2xl:max-w-screen-xl">
+                <main className="h-full ">
                     <div className="flex h-full">
                         <div className="hidden w-64 shrink-0 md:block">
                             <Sidebar />
