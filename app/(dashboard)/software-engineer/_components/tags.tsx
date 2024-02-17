@@ -16,10 +16,14 @@ export const Tags = () => {
         <ToggleGroup
             type="single"
             size={'sm'}
-            className="flex justify-start space-x-2"
+            className="flex w-full flex-wrap justify-start space-x-2"
         >
             {tagItem.map(item => (
-                <ToggleGroupItem key={item.value} value={item.value}>
+                <ToggleGroupItem
+                    key={item.value}
+                    value={item.value}
+                    className="mb-2"
+                >
                     {item.label}
                 </ToggleGroupItem>
             ))}
