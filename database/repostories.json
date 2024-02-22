@@ -1,18 +1,59 @@
 {
     "airbnb-clone": {
         "tags": ["next.js", "prisma", "tailwind-css"],
-        "imageUrl": ""
+        "coverImageUrl": "",
+        "keyFeatures": [
+            { "id": 1, "desc": "feature-desc-1", "imageUrl": "" },
+            { "id": 2, "desc": "feature-desc-2", "imageUrl": "" },
+            { "id": 3, "desc": "feature-desc-3", "imageUrl": "" },
+            { "id": 4, "desc": "feature-desc-4", "imageUrl": "" },
+            { "id": 5, "desc": "feature-desc-5", "imageUrl": "" },
+            { "id": 6, "desc": "feature-desc-6", "imageUrl": "" },
+            { "id": 7, "desc": "feature-desc-7", "imageUrl": "" },
+            { "id": 8, "desc": "feature-desc-8", "imageUrl": "" },
+            { "id": 9, "desc": "feature-desc-9", "imageUrl": "" }
+        ],
+        "techStackBadgeUrls": [
+            "https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge",
+            "https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge"
+        ],
+        "libraries": [
+            {
+                "id": "nextauth-js",
+                "alt": "nextauth-js",
+                "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLiiZD803XYeFxyVSPRNfI8SxO4UABqJcGyreAGxUmUw&s",
+                "name": "NextAuth.js",
+                "desc": "nextauth-desc"
+            },
+            {
+                "id": "next-cloudinary",
+                "alt": "next-cloudinary",
+                "logoUrl": "https://pbs.twimg.com/profile_images/1674799535665684482/SgGTyzXN_400x400.png",
+                "name": "Next Cloudinary",
+                "desc": "next-cloudinary-desc"
+            },
+            {
+                "id": "zustand",
+                "alt": "zustand",
+                "logoUrl": "https://img.stackshare.io/service/11559/zustand.png",
+                "name": "Zustand",
+                "desc": "zustand-desc"
+            }
+        ]
     },
     "trello-clone": {
         "tags": ["next.js", "prisma", "tailwind-css"],
-        "imageUrl": ""
+        "coverImageUrl": ""
     },
     "github-issues-clone": {
         "tags": ["next.js", "prisma", "tailwind-css"],
-        "imageUrl": ""
+        "coverImageUrl": ""
     },
     "yu-dashboard": {
         "tags": ["next.js", "prisma", "tailwind-css"],
-        "imageUrl": ""
+        "coverImageUrl": ""
     }
 }

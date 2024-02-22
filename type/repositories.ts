@@ -17,5 +17,5 @@ export interface DisplayRepoType {
     created_at: string;
     updated_at: string;
     tags: string[];
-    imageUrl: string;
+    coverImageUrl: string;
 }

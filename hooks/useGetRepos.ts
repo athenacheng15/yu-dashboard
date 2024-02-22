@@ -6,7 +6,7 @@ import repostories from '@/database/repostories.json';
 interface Repositories {
     [key: string]: {
         tags: string[];
-        imageUrl: string;
+        coverImageUrl: string;
     };
 }
 
