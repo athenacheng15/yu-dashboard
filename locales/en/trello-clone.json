@@ -1,0 +1,22 @@
+{
+    "key-features": {
+        "feature-desc-1": "Landing page.",
+        "feature-desc-2": "Auth for Organizational and Personal Workspace Usage Rights.",
+        "feature-desc-3": "Fetching Unsplash image API for random beautiful cover images.",
+        "feature-desc-4": "CRUD Operations for Boards, Lists, and Cards.",
+        "feature-desc-5": "Activity log for Card and entire organization.",
+        "feature-desc-6": "Rename, drag & drop reorder and copy functions of List and Card.",
+        "feature-desc-7": "Board limit for every organization.",
+        "feature-desc-8": "Stripe subscription for each organization to unlock unlimited boards."
+    },
+    "libraries": {
+        "clerk-desc": "Simplify user authentication and identity management with customizable features.",
+        "planetscale-desc": "MySQL-compatible database.",
+        "shadcn-desc": "Enhance UI development with a collection of reusable components for improved code reusability.",
+        "stripe-desc": "Securely accept and manage payments online with this robust payment processing platform.",
+        "tanstack-desc": "Streamline data fetching, caching, and updates in React applications for efficient state management.",
+        "unsplash-desc": "Get the largest free collection of high-quality images using the Image api.",
+        "zod-desc": "Ensure data integrity and type safety with TypeScript-first schema declaration and validation.",
+        "zustand-desc": "Simplify global state management in React applications with a minimalistic API."
+    }
+}
