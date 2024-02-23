@@ -1,0 +1,18 @@
+{
+    "key-features": {
+        "feature-desc-1": "Implement search filters for guests to find accommodations by property, location, dates, and room specifics.",
+        "feature-desc-2": "Group houses by property type, allowing users to select from the homepage.",
+        "feature-desc-3": "Provide detailed pages with photos, descriptions, availability, and pricing for informed choices.",
+        "feature-desc-4": "Use a date picker for stay periods and automatic price calculation.",
+        "feature-desc-5": "Add a wishlist feature for saving and organizing properties.",
+        "feature-desc-6": "Allow hosts to upload listings with photos, location, pricing, and room details.",
+        "feature-desc-7": "Display booked trips with cancellation options.",
+        "feature-desc-8": "List hosts' properties with delete functionality.",
+        "feature-desc-9": "Enable login/signup via email, Google, or GitHub accounts."
+    },
+    "libraries": {
+        "nextauth-desc": "Add authentication to project for various login methods.",
+        "next-cloudinary-desc": "Uploading, storage, optimization, and delivery of images",
+        "zustand-desc": "Simplify global state management in React applications with a minimalistic API."
+    }
+}

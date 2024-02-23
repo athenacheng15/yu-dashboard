@@ -1,18 +1,193 @@
 {
     "airbnb-clone": {
-        "tags": ["next.js", "prisma", "tailwind-css"],
-        "imageUrl": ""
+        "tags": ["next.js", "prisma", "tailwind-css", "MongoDB"],
+        "coverImageUrl": "",
+        "keyFeatures": [
+            { "id": 1, "desc": "feature-desc-1", "imageUrl": "" },
+            { "id": 2, "desc": "feature-desc-2", "imageUrl": "" },
+            { "id": 3, "desc": "feature-desc-3", "imageUrl": "" },
+            { "id": 4, "desc": "feature-desc-4", "imageUrl": "" },
+            { "id": 5, "desc": "feature-desc-5", "imageUrl": "" },
+            { "id": 6, "desc": "feature-desc-6", "imageUrl": "" },
+            { "id": 7, "desc": "feature-desc-7", "imageUrl": "" },
+            { "id": 8, "desc": "feature-desc-8", "imageUrl": "" },
+            { "id": 9, "desc": "feature-desc-9", "imageUrl": "" }
+        ],
+        "techStackBadgeUrls": [
+            "https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge",
+            "https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge"
+        ],
+        "libraries": [
+            {
+                "id": "nextauth-js",
+                "alt": "nextauth-js",
+                "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLiiZD803XYeFxyVSPRNfI8SxO4UABqJcGyreAGxUmUw&s",
+                "name": "NextAuth.js",
+                "desc": "nextauth-desc"
+            },
+            {
+                "id": "next-cloudinary",
+                "alt": "next-cloudinary",
+                "logoUrl": "https://pbs.twimg.com/profile_images/1674799535665684482/SgGTyzXN_400x400.png",
+                "name": "Next Cloudinary",
+                "desc": "next-cloudinary-desc"
+            },
+            {
+                "id": "zustand",
+                "alt": "zustand",
+                "logoUrl": "https://img.stackshare.io/service/11559/zustand.png",
+                "name": "Zustand",
+                "desc": "zustand-desc"
+            }
+        ]
     },
     "trello-clone": {
-        "tags": ["next.js", "prisma", "tailwind-css"],
-        "imageUrl": ""
+        "tags": ["next.js", "prisma", "tailwind-css", "MySQL"],
+        "coverImageUrl": "",
+        "keyFeatures": [
+            { "id": 1, "desc": "feature-desc-1", "imageUrl": "" },
+            { "id": 2, "desc": "feature-desc-2", "imageUrl": "" },
+            { "id": 3, "desc": "feature-desc-3", "imageUrl": "" },
+            { "id": 4, "desc": "feature-desc-4", "imageUrl": "" },
+            { "id": 5, "desc": "feature-desc-5", "imageUrl": "" },
+            { "id": 6, "desc": "feature-desc-6", "imageUrl": "" },
+            { "id": 7, "desc": "feature-desc-7", "imageUrl": "" },
+            { "id": 8, "desc": "feature-desc-8", "imageUrl": "" }
+        ],
+        "techStackBadgeUrls": [
+            "https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge",
+            "https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge"
+        ],
+        "libraries": [
+            {
+                "id": "clerk",
+                "alt": "clerk",
+                "logoUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVEuXbieiDLdzyT-lHa1wtFVPK2ONT5utgQ&usqp=CAU",
+                "name": "Clerk",
+                "desc": "clerk-desc"
+            },
+            {
+                "id": "planetscale",
+                "alt": "planetscale",
+                "logoUrl": "https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/iidhf24ewhnqtjgrrfbp",
+                "name": "Planetscale",
+                "desc": "planetscale-desc"
+            },
+            {
+                "id": "shadcn",
+                "alt": "shadcn",
+                "logoUrl": "https://avatars.githubusercontent.com/u/139895814?s=280&v=4",
+                "name": "Shadcn",
+                "desc": "shadcn-desc"
+            },
+            {
+                "id": "stripe",
+                "alt": "stripe",
+                "logoUrl": "https://b.stripecdn.com/site-statics-srv/assets/assets/img/v3/home/twitter-80afaafee00af0bc21d345164a2a9bb6.png",
+                "name": "Stripe",
+                "desc": "stripe-desc"
+            },
+            {
+                "id": "tanstack",
+                "alt": "tanstack",
+                "logoUrl": "https://avatars.githubusercontent.com/u/72518640?s=200&v=4",
+                "name": "Tanstack",
+                "desc": "tanstack-desc"
+            },
+            {
+                "id": "unsplash",
+                "alt": "unsplash",
+                "logoUrl": "https://uploads-ssl.webflow.com/5b0c471ddb589cf22d4477a4/5cd716028463a5a1d1b1e73d_unsplash-app-icon-2.png",
+                "name": "Unsplash",
+                "desc": "unsplash-desc"
+            },
+            {
+                "id": "zod",
+                "alt": "zod",
+                "logoUrl": "https://seeklogo.com/images/Z/zod-logo-B57E684330-seeklogo.com.png",
+                "name": "Zod",
+                "desc": "zod-desc"
+            },
+            {
+                "id": "zustand",
+                "alt": "zustand",
+                "logoUrl": "https://img.stackshare.io/service/11559/zustand.png",
+                "name": "Zustand",
+                "desc": "zustand-desc"
+            }
+        ]
     },
     "github-issues-clone": {
-        "tags": ["next.js", "prisma", "tailwind-css"],
-        "imageUrl": ""
+        "tags": ["react.js", "prisma", "tailwind-css"],
+        "coverImageUrl": "",
+        "keyFeatures": [
+            { "id": 1, "desc": "feature-desc-1", "imageUrl": "" },
+            { "id": 2, "desc": "feature-desc-2", "imageUrl": "" },
+            { "id": 3, "desc": "feature-desc-3", "imageUrl": "" },
+            { "id": 4, "desc": "feature-desc-4", "imageUrl": "" },
+            { "id": 5, "desc": "feature-desc-5", "imageUrl": "" },
+            { "id": 6, "desc": "feature-desc-6", "imageUrl": "" },
+            { "id": 7, "desc": "feature-desc-7", "imageUrl": "" },
+            { "id": 8, "desc": "feature-desc-8", "imageUrl": "" }
+        ],
+        "techStackBadgeUrls": [
+            "https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge",
+            "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/styled%20components-8A2BE2?logo=styledcomponents&logoColor=white&color=DB7093&style=for-the-badge",
+            "https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge"
+        ],
+        "libraries": [
+            {
+                "id": "storybook",
+                "alt": "storybook",
+                "logoUrl": "https://static-00.iconduck.com/assets.00/storybook-icon-412x512-1sdnathv.png",
+                "name": "StoryBook",
+                "desc": "storybook-desc"
+            },
+            {
+                "id": "supabase",
+                "alt": "supabase",
+                "logoUrl": "https://cf.appdrag.com/dashboard-openvm-clo-b2d42c/uploads/supabase-TAiY.png",
+                "name": "Supabase",
+                "desc": "supabase-desc"
+            }
+        ]
     },
     "yu-dashboard": {
-        "tags": ["next.js", "prisma", "tailwind-css"],
-        "imageUrl": ""
+        "tags": ["next.js", "tailwind-css"],
+        "coverImageUrl": "",
+        "keyFeatures": [
+            { "id": 1, "desc": "feature-desc-1", "imageUrl": "" },
+            { "id": 2, "desc": "feature-desc-2", "imageUrl": "" },
+            { "id": 3, "desc": "feature-desc-3", "imageUrl": "" }
+        ],
+        "techStackBadgeUrls": [
+            "https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge"
+        ],
+        "libraries": [
+            {
+                "id": "",
+                "alt": "",
+                "logoUrl": "",
+                "name": "",
+                "desc": ""
+            },
+            {
+                "id": "",
+                "alt": "",
+                "logoUrl": "",
+                "name": "",
+                "desc": ""
+            }
+        ]
     }
 }
