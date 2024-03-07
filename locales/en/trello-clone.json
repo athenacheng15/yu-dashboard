@@ -1,13 +1,13 @@
 {
     "key-features": {
-        "feature-desc-1": "Landing page.",
-        "feature-desc-2": "Auth for Organizational and Personal Workspace Usage Rights.",
-        "feature-desc-3": "Fetching Unsplash image API for random beautiful cover images.",
-        "feature-desc-4": "CRUD Operations for Boards, Lists, and Cards.",
-        "feature-desc-5": "Activity log for Card and entire organization.",
-        "feature-desc-6": "Rename, drag & drop reorder and copy functions of List and Card.",
-        "feature-desc-7": "Board limit for every organization.",
-        "feature-desc-8": "Stripe subscription for each organization to unlock unlimited boards."
+        "desc-1": "Landing page.",
+        "desc-2": "Auth for Organizational and Personal Workspace Usage Rights.",
+        "desc-3": "Fetching Unsplash image API for random beautiful cover images.",
+        "desc-4": "CRUD Operations for Boards, Lists, and Cards.",
+        "desc-5": "Activity log for Card and entire organization.",
+        "desc-6": "Rename, drag & drop reorder and copy functions of List and Card.",
+        "desc-7": "Board limit for every organization.",
+        "desc-8": "Stripe subscription for each organization to unlock unlimited boards."
     },
     "libraries": {
         "clerk-desc": "Simplify user authentication and identity management with customizable features.",
