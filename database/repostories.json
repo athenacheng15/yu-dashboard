@@ -1,17 +1,17 @@
 {
     "airbnb-clone": {
-        "tags": ["next.js", "prisma", "tailwind-css", "MongoDB"],
+        "tags": ["next.js", "tailwind-css", "prisma", "MongoDB"],
         "coverImageUrl": "",
         "keyFeatures": [
-            { "id": 1, "desc": "feature-desc-1", "imageUrl": "" },
-            { "id": 2, "desc": "feature-desc-2", "imageUrl": "" },
-            { "id": 3, "desc": "feature-desc-3", "imageUrl": "" },
-            { "id": 4, "desc": "feature-desc-4", "imageUrl": "" },
-            { "id": 5, "desc": "feature-desc-5", "imageUrl": "" },
-            { "id": 6, "desc": "feature-desc-6", "imageUrl": "" },
-            { "id": 7, "desc": "feature-desc-7", "imageUrl": "" },
-            { "id": 8, "desc": "feature-desc-8", "imageUrl": "" },
-            { "id": 9, "desc": "feature-desc-9", "imageUrl": "" }
+            { "id": 1, "desc": "desc-1", "imageUrl": "" },
+            { "id": 2, "desc": "desc-2", "imageUrl": "" },
+            { "id": 3, "desc": "desc-3", "imageUrl": "" },
+            { "id": 4, "desc": "desc-4", "imageUrl": "" },
+            { "id": 5, "desc": "desc-5", "imageUrl": "" },
+            { "id": 6, "desc": "desc-6", "imageUrl": "" },
+            { "id": 7, "desc": "desc-7", "imageUrl": "" },
+            { "id": 8, "desc": "desc-8", "imageUrl": "" },
+            { "id": 9, "desc": "desc-9", "imageUrl": "" }
         ],
         "techStackBadgeUrls": [
             "https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge",
@@ -45,17 +45,17 @@
         ]
     },
     "trello-clone": {
-        "tags": ["next.js", "prisma", "tailwind-css", "MySQL"],
+        "tags": ["next.js", "tailwind-css", "prisma", "MySQL"],
         "coverImageUrl": "",
         "keyFeatures": [
-            { "id": 1, "desc": "feature-desc-1", "imageUrl": "" },
-            { "id": 2, "desc": "feature-desc-2", "imageUrl": "" },
-            { "id": 3, "desc": "feature-desc-3", "imageUrl": "" },
-            { "id": 4, "desc": "feature-desc-4", "imageUrl": "" },
-            { "id": 5, "desc": "feature-desc-5", "imageUrl": "" },
-            { "id": 6, "desc": "feature-desc-6", "imageUrl": "" },
-            { "id": 7, "desc": "feature-desc-7", "imageUrl": "" },
-            { "id": 8, "desc": "feature-desc-8", "imageUrl": "" }
+            { "id": 1, "desc": "desc-1", "imageUrl": "" },
+            { "id": 2, "desc": "desc-2", "imageUrl": "" },
+            { "id": 3, "desc": "desc-3", "imageUrl": "" },
+            { "id": 4, "desc": "desc-4", "imageUrl": "" },
+            { "id": 5, "desc": "desc-5", "imageUrl": "" },
+            { "id": 6, "desc": "desc-6", "imageUrl": "" },
+            { "id": 7, "desc": "desc-7", "imageUrl": "" },
+            { "id": 8, "desc": "desc-8", "imageUrl": "" }
         ],
         "techStackBadgeUrls": [
             "https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge",
@@ -123,18 +123,60 @@
             }
         ]
     },
+    "spotify-clone": {
+        "tags": ["next.js", "tailwind-css", "PostgreSQL"],
+        "coverImageUrl": "",
+        "keyFeatures": [
+            { "id": 1, "desc": "desc-1", "imageUrl": "" },
+            { "id": 2, "desc": "desc-2", "imageUrl": "" },
+            { "id": 3, "desc": "desc-3", "imageUrl": "" },
+            { "id": 4, "desc": "desc-4", "imageUrl": "" },
+            { "id": 5, "desc": "desc-5", "imageUrl": "" },
+            { "id": 6, "desc": "desc-6", "imageUrl": "" },
+            { "id": 7, "desc": "desc-7", "imageUrl": "" }
+        ],
+        "techStackBadgeUrls": [
+            "https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge",
+            "https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge",
+            "https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge"
+        ],
+        "libraries": [
+            {
+                "id": "zustand",
+                "alt": "zustand",
+                "logoUrl": "https://img.stackshare.io/service/11559/zustand.png",
+                "name": "Zustand",
+                "desc": "zustand-desc"
+            },
+            {
+                "id": "supabase",
+                "alt": "supabase",
+                "logoUrl": "https://cf.appdrag.com/dashboard-openvm-clo-b2d42c/uploads/supabase-TAiY.png",
+                "name": "Supabase",
+                "desc": "supabase-desc"
+            },
+            {
+                "id": "stripe",
+                "alt": "stripe",
+                "logoUrl": "https://b.stripecdn.com/site-statics-srv/assets/assets/img/v3/home/twitter-80afaafee00af0bc21d345164a2a9bb6.png",
+                "name": "Stripe",
+                "desc": "stripe-desc"
+            }
+        ]
+    },
     "github-issues-clone": {
         "tags": ["react.js", "prisma", "tailwind-css"],
         "coverImageUrl": "",
         "keyFeatures": [
-            { "id": 1, "desc": "feature-desc-1", "imageUrl": "" },
-            { "id": 2, "desc": "feature-desc-2", "imageUrl": "" },
-            { "id": 3, "desc": "feature-desc-3", "imageUrl": "" },
-            { "id": 4, "desc": "feature-desc-4", "imageUrl": "" },
-            { "id": 5, "desc": "feature-desc-5", "imageUrl": "" },
-            { "id": 6, "desc": "feature-desc-6", "imageUrl": "" },
-            { "id": 7, "desc": "feature-desc-7", "imageUrl": "" },
-            { "id": 8, "desc": "feature-desc-8", "imageUrl": "" }
+            { "id": 1, "desc": "desc-1", "imageUrl": "" },
+            { "id": 2, "desc": "desc-2", "imageUrl": "" },
+            { "id": 3, "desc": "desc-3", "imageUrl": "" },
+            { "id": 4, "desc": "desc-4", "imageUrl": "" },
+            { "id": 5, "desc": "desc-5", "imageUrl": "" },
+            { "id": 6, "desc": "desc-6", "imageUrl": "" },
+            { "id": 7, "desc": "desc-7", "imageUrl": "" },
+            { "id": 8, "desc": "desc-8", "imageUrl": "" }
         ],
         "techStackBadgeUrls": [
             "https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge",
@@ -164,9 +206,9 @@
         "tags": ["next.js", "tailwind-css"],
         "coverImageUrl": "",
         "keyFeatures": [
-            { "id": 1, "desc": "feature-desc-1", "imageUrl": "" },
-            { "id": 2, "desc": "feature-desc-2", "imageUrl": "" },
-            { "id": 3, "desc": "feature-desc-3", "imageUrl": "" }
+            { "id": 1, "desc": "desc-1", "imageUrl": "" },
+            { "id": 2, "desc": "desc-2", "imageUrl": "" },
+            { "id": 3, "desc": "desc-3", "imageUrl": "" }
         ],
         "techStackBadgeUrls": [
             "https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge",
