@@ -1,6 +1,6 @@
 'use client';
 
-import { DisplayRepoType } from '@/type/repositories';
+import { DisplayRepoType } from '@/types/repositories';
 
 import { useRouter } from 'next/navigation';
 import { Github, Link2, Clock2, PencilLine } from 'lucide-react';
