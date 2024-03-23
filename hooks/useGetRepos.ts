@@ -1,7 +1,7 @@
-import { DisplayRepoType, RepoType } from '@/type/repositories';
+import { DisplayRepoType, RepoType } from '@/types/repositories';
 
 import axios from 'axios';
-import repostories from '@/database/repostories.json';
+import { repostories } from '@/database/repostories';
 
 interface Repositories {
     [key: string]: {
