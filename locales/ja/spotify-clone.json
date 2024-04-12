@@ -22,7 +22,7 @@
         "desc-11": "",
         "desc-12": ""
     },
-    "webDevToolkits": {
+    "webDevToolkit": {
         "supabase-desc": "Handling database operations and implementing authentication with credentials and GitHub.",
         "stripe-desc": "Managing recurring payments and cancellation for subscriptions.",
         "zustand-desc": "Simplifying global state management in React applications with a minimalistic API."

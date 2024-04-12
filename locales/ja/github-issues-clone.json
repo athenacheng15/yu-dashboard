@@ -23,7 +23,7 @@
         "desc-11": "",
         "desc-12": ""
     },
-    "webDevToolkits": {
+    "webDevToolkit": {
         "storybook-desc": "Facilitate the development, testing, and documentation of UI components in isolation.",
         "supabase-desc": "To enable GitHub Auth for the project."
     }
