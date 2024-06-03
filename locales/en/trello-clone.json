@@ -1,5 +1,5 @@
 {
-    "key-features": {
+    "keyFeatures": {
         "desc-1": "Landing page.",
         "desc-2": "Auth for Organizational and Personal Workspace Usage Rights.",
         "desc-3": "Fetching Unsplash image API for random beautiful cover images.",
@@ -9,7 +9,7 @@
         "desc-7": "Board limit for every organization.",
         "desc-8": "Stripe subscription for each organization to unlock unlimited boards."
     },
-    "libraries": {
+    "webDevToolkits": {
         "clerk-desc": "Simplify user authentication and identity management with customizable features.",
         "planetscale-desc": "MySQL-compatible database.",
         "shadcn-desc": "Enhance UI development with a collection of reusable components for improved code reusability.",

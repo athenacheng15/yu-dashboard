@@ -1,1 +1,16 @@
-{}
+{
+    "software-engineer": "Software Engineer",
+    "urban-planner": "Urban Planner",
+    "contact": "Contact",
+    "language": "Language",
+    "created": "Created",
+    "updated ": "Updated",
+    "view_github": "View Github",
+    "go_to_website": "Go To Website",
+    "features": "Features",
+    "snapshot": "Snapshot",
+    "tech-stack": "Tech Stack",
+    "libraries": "Libraries",
+    "report-bug": "Report bug",
+    "create-issue": "Create Issue"
+}

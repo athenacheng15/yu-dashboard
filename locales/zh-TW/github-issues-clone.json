@@ -1,0 +1,16 @@
+{
+    "keyFeatures": {
+        "desc-1": "允許用戶列出、創建、更新和刪除標籤，以更好地組織 Issues。",
+        "desc-2": "提供清晰的 Issues 概覽。",
+        "desc-3": "提供分頁和各種篩選功能，如「Your issues」、「Everything assigned to you」和「Everything mentioning you」。",
+        "desc-4": "支援以 Issue 的狀態、標籤和 asignee 進行篩選，並可依據最新、最舊、評論最多等選項排序。",
+        "desc-5": "顯示有關該 Issue 的詳細資訊，包含標題、狀態、用戶、創建/關閉時間、評論、asignee 及標籤。",
+        "desc-6": "允許用戶列出、創建、更新評論，並查看時間軸和反應，以獲取更多上下文資訊。",
+        "desc-7": "用戶可以創建新 Issue ，並指定標題、描述、asignee 和標籤，支援 Markdown 格式化。",
+        "desc-8": "用戶將使用 Github OAuth 認證進行身份驗證並登入網站瀏覽。"
+    },
+    "webDevToolkits": {
+        "storybook-desc": "促進在單獨環境中開發、測試和記錄UI元件。",
+        "supabase-desc": "為專案啟用 GitHub 身份驗證。"
+    }
+}

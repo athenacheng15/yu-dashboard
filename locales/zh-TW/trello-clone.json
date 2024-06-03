@@ -1,0 +1,22 @@
+{
+    "keyFeatures": {
+        "desc-1": "歡迎頁面。",
+        "desc-2": "用於管理組織和個人工作空間使用權限的身份驗證。",
+        "desc-3": "使用 Unsplash 圖片 API 獲取隨機的高品質封面圖像。",
+        "desc-4": "對面板、列表和卡片進行CRUD操作。",
+        "desc-5": "對於卡片和整個組織的活動紀錄。",
+        "desc-6": "對列表和卡片進行重命名、拖放重新排序和複製功能。",
+        "desc-7": "每個組織的面板限制。",
+        "desc-8": "每個組織使用 Stripe 訂閱以解鎖無限的面板。"
+    },
+    "webDevToolkits": {
+        "clerk-desc": "使用可自定義功能簡化用戶身份驗證和身份管理。",
+        "planetscale-desc": "與 MySQL 相容的數據庫。",
+        "shadcn-desc": "通過可重複使用的元件集合增強 UI 開發，提高程式的可重用性。",
+        "stripe-desc": "使用該平台安全地接受和管理在線支付。",
+        "tanstack-desc": "為 React 應用程式提供數據取得、緩存和更新，以實現有效的狀態管理。",
+        "unsplash-desc": "使用圖像 API 獲取的免費高質量圖片。",
+        "zod-desc": "以 TypeScript 為主的形別驗證，確保資料完整性和類型安全。",
+        "zustand-desc": "通過極簡的 API 在 React 應用程式中簡化全域狀態管理。"
+    }
+}
