@@ -1,1 +1,16 @@
-{}
+{
+    "software-engineer": "軟體工程師",
+    "urban-planner": "都市規劃師",
+    "contact": "聯絡方式",
+    "language": "語言",
+    "created": "建立日期",
+    "updated ": "更新日期",
+    "view_github": "瀏覽 Github",
+    "go_to_website": "前往網站",
+    "features": "重點功能",
+    "snapshot": "網頁快照",
+    "tech-stack": "技術選用",
+    "libraries": "輔助程式庫",
+    "report-bug": "回報問題",
+    "create-issue": "建立 Issue"
+}

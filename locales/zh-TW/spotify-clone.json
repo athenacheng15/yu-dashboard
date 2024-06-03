@@ -1,30 +1,16 @@
 {
     "keyFeatures": {
-        "desc-1": "Song management with features like upload, play, favorites, and playlists.",
-        "desc-2": "Integration of Stripe for recurring payments and cancellation.",
-        "desc-3": "Handling of databases using Supabase and PostgreSQL.",
-        "desc-4": "Design of sleek UI with Tailwind, including animations and responsiveness.",
-        "desc-5": "Implementation of authentication with credentials and GitHub, ensuring secure user registration and login processes.",
-        "desc-6": "The server-side routes and handlers for POST, GET, and DELETE requests.",
-        "desc-7": "Real-time data fetching and management of component relations without APIs."
-    },
-    "snapshots": {
-        "desc-1": "",
-        "desc-2": "",
-        "desc-3": "",
-        "desc-4": "",
-        "desc-5": "",
-        "desc-6": "",
-        "desc-7": "",
-        "desc-8": "",
-        "desc-9": "",
-        "desc-10": "",
-        "desc-11": "",
-        "desc-12": ""
+        "desc-1": "具備上傳、播放、收藏和播放清單等功能的歌曲管理。",
+        "desc-2": "整合 Stripe 以進行定期付款和取消。",
+        "desc-3": "使用 Supabase 和 PostgreSQL 處理資料庫。",
+        "desc-4": "使用 Tailwind 設計流暢的 UI，包括動畫和響應式設計。",
+        "desc-5": "實現具有 credentials 和 GitHub 的身份驗證，確保使用者註冊和登入流程的安全。",
+        "desc-6": "處理 POST、GET 和 DELETE 請求的伺服器端路由和處理器。",
+        "desc-7": "無需 API 及時取得資料並管理元件關係。"
     },
     "webDevToolkits": {
-        "supabase-desc": "Handling database operations and implementing authentication with credentials and GitHub.",
-        "stripe-desc": "Managing recurring payments and cancellation for subscriptions.",
-        "zustand-desc": "Simplifying global state management in React applications with a minimalistic API."
+        "supabase-desc": "處理資料庫操作，並實現具有 credentials 和 GitHub 的身份驗證。",
+        "stripe-desc": "管理訂閱的定期付款和取消。",
+        "zustand-desc": "使用極簡 API 簡化 React 應用程式中的全域狀態管理。"
     }
 }

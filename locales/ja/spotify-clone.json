@@ -1,30 +1,16 @@
 {
     "keyFeatures": {
-        "desc-1": "Song management with features like upload, play, favorites, and playlists.",
-        "desc-2": "Integration of Stripe for recurring payments and cancellation.",
-        "desc-3": "Handling of databases using Supabase and PostgreSQL.",
-        "desc-4": "Design of sleek UI with Tailwind, including animations and responsiveness.",
-        "desc-5": "Implementation of authentication with credentials and GitHub, ensuring secure user registration and login processes.",
-        "desc-6": "The server-side routes and handlers for POST, GET, and DELETE requests.",
-        "desc-7": "Real-time data fetching and management of component relations without APIs."
-    },
-    "snapshots": {
-        "desc-1": "",
-        "desc-2": "",
-        "desc-3": "",
-        "desc-4": "",
-        "desc-5": "",
-        "desc-6": "",
-        "desc-7": "",
-        "desc-8": "",
-        "desc-9": "",
-        "desc-10": "",
-        "desc-11": "",
-        "desc-12": ""
+        "desc-1": "アップロード、再生、お気に入り、プレイリストなどの機能を備えた楽曲管理。",
+        "desc-2": "定期支払いとキャンセルのための Stripe の統合。",
+        "desc-3": "Supabase と PostgreSQL を使用したデータベースの処理。",
+        "desc-4": "アニメーションやレスポンシブ対応を含む Tailwind を使用した洗練された UI の設計。",
+        "desc-5": "資格情報と GitHub を使用した認証の実装により、安全なユーザー登録とログインプロセスを確保。",
+        "desc-6": "POST、GET、および DELETE リクエストのためのサーバーサイドのルートとハンドラの処理。",
+        "desc-7": "API 不要でコンポーネントの関係をリアルタイムで取得および管理。"
     },
     "webDevToolkit": {
-        "supabase-desc": "Handling database operations and implementing authentication with credentials and GitHub.",
-        "stripe-desc": "Managing recurring payments and cancellation for subscriptions.",
-        "zustand-desc": "Simplifying global state management in React applications with a minimalistic API."
+        "supabase-desc": "データベース操作の処理と、資格情報と GitHub を使用した認証の実装。",
+        "stripe-desc": "定期支払いとキャンセルのための購読の管理。",
+        "zustand-desc": "極限までシンプルな API を使用して React アプリケーションでのグローバル状態管理を簡素化。"
     }
 }
