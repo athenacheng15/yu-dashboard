@@ -1,8 +1,8 @@
-export const webDevToolkit = {
+export const webDevToolkitImgUrl = {
     clerk: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdVEuXbieiDLdzyT-lHa1wtFVPK2ONT5utgQ&usqp=CAU',
     'next-auth-js':
         'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLiiZD803XYeFxyVSPRNfI8SxO4UABqJcGyreAGxUmUw&s',
-    'next-cloudinary': 'https://pbs.twimg.com/profile_images/1674799535665684482/SgGTyzXN_400x400.png',
+    cloudinary: 'https://avatars.githubusercontent.com/u/132098791?v=4',
     planetscale:
         'https://images.crunchbase.com/image/upload/c_pad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/iidhf24ewhnqtjgrrfbp',
     shadcn: 'https://avatars.githubusercontent.com/u/139895814?s=280&v=4',
@@ -15,3 +15,5 @@ export const webDevToolkit = {
     zod: 'https://seeklogo.com/images/Z/zod-logo-B57E684330-seeklogo.com.png',
     zustand: 'https://img.stackshare.io/service/11559/zustand.png',
 };
+
+export type WebDevToolkitImgUrlKey = keyof typeof webDevToolkitImgUrl;
