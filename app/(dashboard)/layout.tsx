@@ -14,7 +14,7 @@ const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
                     <Sidebar />
                 </div>
                 <div className="w-full bg-white md:ml-64">
-                    <div className="bg-[linear-gradient(to_right,#69866c30_1px,transparent_1px),linear-gradient(to_bottom,#69866c30_1px,transparent_1px)] bg-[size:16px_16px]">
+                    <div className="min-h-[100vh] bg-[linear-gradient(to_right,#69866c30_1px,transparent_1px),linear-gradient(to_bottom,#69866c30_1px,transparent_1px)] bg-[size:16px_16px] ">
                         <div className="p-6 pt-20 md:p-10">{children}</div>
                     </div>
                 </div>
