@@ -3,14 +3,14 @@ import type { DisplayRepoDetailType } from '@/types/repositories';
 import { Github, Link2, Clock2, PencilLine } from 'lucide-react';
 import dayjs from 'dayjs';
 
-import { Button } from '@/components/ui/button';
+import { NavigateBtns } from './navigate-btns';
 
 export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null }) => {
     if (!repoDetail) return null;
     return (
-        <div className="relative z-10 mb-8 flex h-full w-full rounded-xl border-2 border-main-green bg-white p-4 text-main-green shadow-solid-lg">
-            <div className="grow space-y-3">
-                <div className="flex items-center font-medium ">
+        <div className="relative z-10 mb-8 flex h-full w-full flex-col rounded-xl border-2 border-main-green bg-white p-4 text-main-green shadow-solid-lg md:flex-row">
+            <div className="space-y-3 md:grow">
+                <div className="flex items-center justify-between font-medium md:justify-start">
                     <h2 className="mr-6 text-2xl">{repoDetail.name}</h2>
                     <div className="flex space-x-2">
                         {repoDetail.tags.map(tag => (
@@ -24,41 +24,33 @@ export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null
                     </div>
                 </div>
                 <p className="text-sm text-gray-400">{repoDetail.description}</p>
-                <div className="flex space-x-3 text-xs">
-                    <div className="flex items-center">
-                        <Clock2 className="mr-1 h-4 w-3 text-main-green" />
-                        <p className="hidden sm:flex">Created : {dayjs(repoDetail.created_at).format('YYYY/MM/DD')}</p>
+                <div className="flex flex-wrap justify-between">
+                    <div className="mr-2 flex flex-col space-y-1 text-xs md:flex-row md:space-x-3 md:space-y-0">
+                        <div className="flex flex-nowrap items-center">
+                            <Clock2 className="mr-1 h-4 w-3 text-main-green" />
+                            <div className="flex flex-wrap">
+                                <p className="hidden md:block">Created</p>
+                                <p className="hidden md:block">{`：`}</p>
+                                <p>{dayjs(repoDetail.created_at).format('YYYY/MM/DD')}</p>
+                            </div>
+                        </div>
+                        <div className="flex flex-nowrap items-center">
+                            <PencilLine className="mr-1 h-4 w-3 text-main-green" />
+                            <div className="flex flex-wrap">
+                                <p className="hidden md:block">Updated</p>
+                                <p className="hidden md:block">{`：`}</p>
+                                <p>{dayjs(repoDetail.updated_at).format('YYYY/MM/DD')}</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className="flex items-center">
-                        <PencilLine className="mr-1 h-4 w-3 text-main-green" />
-                        <p className="hidden sm:flex">Updated : {dayjs(repoDetail.updated_at).format('YYYY/MM/DD')}</p>
+                    <div className="flex space-x-2 md:hidden">
+                        <NavigateBtns githubUrl={repoDetail.html_url} webSiteUrl={repoDetail.homepage} />
                     </div>
                 </div>
             </div>
-            <div className="mx-4 w-px bg-gray-500"></div>
-            <div className="flex w-40 flex-col items-center justify-center space-y-4">
-                <Button
-                    className="flex h-8 w-full justify-start"
-                    variant="outline"
-                    onClick={e => {
-                        e.stopPropagation();
-                        window.open(repoDetail.html_url);
-                    }}
-                >
-                    <Github className="mr-2 w-5" />
-                    View Github
-                </Button>
-                <Button
-                    className="flex h-8 w-full justify-start"
-                    variant="outline"
-                    onClick={e => {
-                        e.stopPropagation();
-                        window.open(repoDetail.homepage);
-                    }}
-                >
-                    <Link2 className="mr-2 w-5" />
-                    Go To Website
-                </Button>
+            <div className="mx-4 hidden w-[2px] bg-[#92AA94] md:block"></div>
+            <div className="hidden w-40 flex-col items-center justify-center space-y-4 md:flex">
+                <NavigateBtns githubUrl={repoDetail.html_url} webSiteUrl={repoDetail.homepage} />
             </div>
         </div>
     );
