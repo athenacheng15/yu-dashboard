@@ -6,7 +6,7 @@ export const repostories: {
     [key: string]: IProject;
 } = {
     'airbnb-clone': {
-        tags: ['fullStack'],
+        tags: ['FullStack'],
         coverImageUrl: airbnbCloneImg.img_1,
         keyFeatures: ['desc-1', 'desc-2', 'desc-3', 'desc-4', 'desc-5', 'desc-6', 'desc-7', 'desc-8', 'desc-9'],
         snapshots: [
@@ -31,7 +31,7 @@ export const repostories: {
         ],
     },
     'trello-clone': {
-        tags: ['fullStack'],
+        tags: ['FullStack'],
         coverImageUrl: trelloCloneImg.img_1,
         keyFeatures: ['desc-1', 'desc-2', 'desc-3', 'desc-4', 'desc-5', 'desc-6', 'desc-7', 'desc-8'],
         snapshots: [
@@ -60,7 +60,7 @@ export const repostories: {
         ],
     },
     'spotify-clone': {
-        tags: ['fullStack'],
+        tags: ['FullStack'],
         coverImageUrl: spotifyCloneImg.img_1,
         keyFeatures: ['desc-1', 'desc-2', 'desc-3', 'desc-4', 'desc-5', 'desc-6', 'desc-7'],
         snapshots: [
@@ -80,7 +80,7 @@ export const repostories: {
         ],
     },
     'github-issues-clone': {
-        tags: ['frontend'],
+        tags: ['FrontEnd'],
         coverImageUrl: githubIssuesCloneImg.img_1,
         snapshots: [
             { id: 'github-issues-clone-img-1', desc: 'desc-1', imageUrl: githubIssuesCloneImg.img_1 },

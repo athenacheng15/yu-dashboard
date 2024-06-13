@@ -1,4 +1,3 @@
-import type { StaticImageData } from 'next/image';
 import type { DisplayRepoType, RepoType } from '@/types/repositories';
 
 import axios from 'axios';

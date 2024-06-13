@@ -12,17 +12,19 @@ import { repostories } from '@/database/repostories';
 import { techStacksImgUrl } from '@/database/techStacksImgUrl';
 import { webDevToolkitImgUrl } from '@/database/webDevToolkitImgUrl';
 
+import { useDetail } from './_hooks/useDetail'; 
 import { ImgCarousel } from './_components/img-carousel';
 import { Block } from './_components/block';
 import { Title } from './_components/title';
 
 export default function SoftwareEngineerPage() {
     const { repoName } = useParams();
+    const { isLoading, repoDetail } = useDetail({ repoName: repoName as string });
     const repoData: IProject = get(repostories, repoName);
     const techBadgeUrls = repoData.techStacks.map(item => techStacksImgUrl[item as TechStackKey]);
     return (
         <div className="space-y-6">
-            <Title />
+            <Title repoDetail={repoDetail} />
             <Block icon={<Settings />} title="Featurs">
                 <ul className="ml-12 list-disc text-justify">
                     {repoData.keyFeatures.map(desc => (
