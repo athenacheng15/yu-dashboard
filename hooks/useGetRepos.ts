@@ -1,24 +1,16 @@
-import { DisplayRepoType, RepoType } from '@/types/repositories';
+import type { StaticImageData } from 'next/image';
+import type { DisplayRepoType, RepoType } from '@/types/repositories';
 
 import axios from 'axios';
-import { repostories } from '@/database/repostories';
+import { pick } from 'lodash';
 
-interface Repositories {
-    [key: string]: {
-        tags: string[];
-        coverImageUrl: string;
-    };
-}
+import { repostories } from '@/database/repostories';
 
 export const useGetRepos = async (): Promise<DisplayRepoType[]> => {
     try {
-        const response = await axios.get(
-            'https://api.github.com/users/athenacheng15/repos',
-        );
+        const response = await axios.get('https://api.github.com/users/athenacheng15/repos');
         const data: RepoType[] = response.data;
-        const displayedData = data.filter(repo =>
-            repostories.hasOwnProperty(repo.name),
-        );
+        const displayedData = data.filter(repo => repostories.hasOwnProperty(repo.name));
         const formattedRepos = displayedData.map(repo => ({
             id: repo.id,
             name: repo.name,
@@ -27,7 +19,7 @@ export const useGetRepos = async (): Promise<DisplayRepoType[]> => {
             homepage: repo.homepage,
             created_at: repo.created_at,
             updated_at: repo.updated_at,
-            ...(repostories as Repositories)[repo.name],
+            ...pick(repostories[repo.name], ['tags', 'coverImageUrl']),
         }));
         return formattedRepos;
     } catch (error) {
