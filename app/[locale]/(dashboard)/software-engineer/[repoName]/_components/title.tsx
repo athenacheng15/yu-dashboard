@@ -1,3 +1,5 @@
+'use client';
+
 import type { DisplayRepoDetailType } from '@/types/repositories';
 
 import { useTranslations } from 'next-intl';

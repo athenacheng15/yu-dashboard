@@ -1,3 +1,5 @@
+'use client';
+
 import type { DisplayRepoDetailType, RepoDetailType } from '@/types/repositories';
 
 import axios from 'axios';
@@ -15,11 +17,15 @@ export const useDetail = ({ repoName }: { repoName: string }): ReturnType => {
     const [repoDetail, setRepoDetail] = useState<DisplayRepoDetailType | null>(null);
     const [isLoading, setIsloading] = useState<boolean>(false);
 
+    const config = {
+        headers: { Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_ACCESS_TOKEN}` },
+    };
+
     useEffect(() => {
         const getDetail = async () => {
             try {
                 setIsloading(true);
-                const response = await axios.get(`https://api.github.com/repos/athenacheng15/${repoName}`);
+                const response = await axios.get(`https://api.github.com/repos/athenacheng15/${repoName}`, config);
                 const data: RepoDetailType = response.data;
                 const formattedRepos = {
                     id: data.id,
@@ -34,7 +40,6 @@ export const useDetail = ({ repoName }: { repoName: string }): ReturnType => {
                 setRepoDetail(formattedRepos);
             } catch (error) {
                 console.error('Error fetching repositorie detail:', error);
-                throw error;
             } finally {
                 setIsloading(false);
             }
