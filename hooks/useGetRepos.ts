@@ -6,8 +6,11 @@ import { pick } from 'lodash';
 import { repostories } from '@/database/repostories';
 
 export const useGetRepos = async (): Promise<DisplayRepoType[]> => {
+    const config = {
+        headers: { Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_ACCESS_TOKEN}` },
+    };
     try {
-        const response = await axios.get('https://api.github.com/users/athenacheng15/repos');
+        const response = await axios.get('https://api.github.com/users/athenacheng15/repos', config);
         const data: RepoType[] = response.data;
         const displayedData = data.filter(repo => repostories.hasOwnProperty(repo.name));
         const formattedRepos = displayedData.map(repo => ({
