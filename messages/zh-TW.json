@@ -1,0 +1,99 @@
+{
+    "common": {
+        "name": "鄭羽均",
+        "home": "首頁",
+        "software-engineer": "軟體工程師",
+        "urban-planner": "都市規劃師",
+        "contact": "聯絡方式",
+        "email": "電子信箱",
+        "language": "語言選擇",
+        "created": "建立日期",
+        "updated": "更新日期",
+        "view-github": "瀏覽 Github",
+        "go-to-website": "前往網站",
+        "features": "重點功能",
+        "snapshot": "網頁快照",
+        "tech-stack": "技術選用",
+        "libraries": "輔助工具",
+        "report-bug": "回報問題",
+        "create-issue": "建立 Issue"
+    },
+    "home": {
+        "phase-1": "嗨，我是羽均。首先，感謝您的光臨。對我來說，好好地記錄生活和職涯非常重要，讓我可以反思自己的成長。這也是我建立這個網站的原因。從UI設計到coding，您在這裡看到的一切都是我努力的成果。",
+        "phase-2": "我過去是都市規劃師和建築背景，現在是一家電商公司的軟體工程師，主要專注於前端開發。雖然前端是我的專長，但我也在積極學習全端技能以擴展專業知識與能力。",
+        "phase-3": "目前這個網站主要展示一些與Coding相關的項目，但我也計劃在未來加入一些與建築和都市規劃相關的內容，因為這兩者都是我人生中不可或缺的歷程。希望您在探索網站時能感受到我的熱情和專業，祝您瀏覽愉快！",
+        "go-explore": "出發探索！"
+    },
+    "airbnb-clone": {
+        "keyFeatures": {
+            "desc-1": "具有搜尋篩選功能，讓使用者能夠透過房源、地點、日期和房間數量找到住宿。",
+            "desc-2": "將房源依照類型分類，讓使用者可以在首頁上進行選擇。",
+            "desc-3": "提供詳細頁面，包括照片、描述、可預訂的日期和價格，以供選擇。",
+            "desc-4": "使用日期選擇器選擇入住期間，並自動計算價格。",
+            "desc-5": "具有加入願望清單功能，用於保存和組織房源。",
+            "desc-6": "允許屋主上傳房源，包括照片、位置、價格和房間詳細資訊。",
+            "desc-7": "顯示已預訂的旅行，並提供取消選項。",
+            "desc-8": "列出屋主的所有房源，並提供刪除功能。",
+            "desc-9": "啟用透過電子郵件、Google 或 GitHub 帳戶的登入/註冊。"
+        },
+        "webDevToolkits": {
+            "nextauth-desc": "為專案添加身份驗證，支援各種登入方法。",
+            "cloudinary-desc": "用於上傳、儲存、優化和提供圖片。",
+            "zustand-desc": "簡化 React 應用程式的全域狀態管理。"
+        }
+    },
+    "github-issues-clone": {
+        "keyFeatures": {
+            "desc-1": "允許用戶列出、創建、更新和刪除標籤，以更好地組織 Issues。",
+            "desc-2": "提供清晰的 Issues 概覽。",
+            "desc-3": "提供分頁和各種篩選功能，如「Your issues」、「Everything assigned to you」和「Everything mentioning you」。",
+            "desc-4": "支援以 Issue 的狀態、標籤和 asignee 進行篩選，並可依據最新、最舊、評論最多等選項排序。",
+            "desc-5": "顯示有關該 Issue 的詳細資訊，包含標題、狀態、用戶、創建/關閉時間、評論、asignee 及標籤。",
+            "desc-6": "允許用戶列出、創建、更新評論，並查看時間軸和反應，以獲取更多上下文資訊。",
+            "desc-7": "用戶可以創建新 Issue ，並指定標題、描述、asignee 和標籤，支援 Markdown 格式化。",
+            "desc-8": "用戶將使用 Github OAuth 認證進行身份驗證並登入網站瀏覽。"
+        },
+        "webDevToolkits": {
+            "storybook-desc": "促進在單獨環境中開發、測試和記錄UI元件。",
+            "supabase-desc": "為專案啟用 GitHub 身份驗證。"
+        }
+    },
+    "spotify-clone": {
+        "keyFeatures": {
+            "desc-1": "具備上傳、播放、收藏和播放清單等功能的歌曲管理。",
+            "desc-2": "整合 Stripe 以進行定期付款和取消。",
+            "desc-3": "使用 Supabase 和 PostgreSQL 處理資料庫。",
+            "desc-4": "使用 Tailwind 設計流暢的 UI，包括動畫和響應式設計。",
+            "desc-5": "實現具有 credentials 和 GitHub 的身份驗證，確保使用者註冊和登入流程的安全。",
+            "desc-6": "處理 POST、GET 和 DELETE 請求的伺服器端路由和處理器。",
+            "desc-7": "無需 API 及時取得資料並管理元件關係。"
+        },
+        "webDevToolkits": {
+            "supabase-desc": "處理資料庫操作，並實現具有 credentials 和 GitHub 的身份驗證。",
+            "stripe-desc": "管理訂閱的定期付款和取消。",
+            "zustand-desc": "使用極簡 API 簡化 React 應用程式中的全域狀態管理。"
+        }
+    },
+    "trello-clone": {
+        "keyFeatures": {
+            "desc-1": "歡迎頁面。",
+            "desc-2": "用於管理組織和個人工作空間使用權限的身份驗證。",
+            "desc-3": "使用 Unsplash 圖片 API 獲取隨機的高品質封面圖像。",
+            "desc-4": "對面板、列表和卡片進行CRUD操作。",
+            "desc-5": "對於卡片和整個組織的活動紀錄。",
+            "desc-6": "對列表和卡片進行重命名、拖放重新排序和複製功能。",
+            "desc-7": "每個組織的面板限制。",
+            "desc-8": "每個組織使用 Stripe 訂閱以解鎖無限的面板。"
+        },
+        "webDevToolkits": {
+            "clerk-desc": "使用可自定義功能簡化用戶身份驗證和身份管理。",
+            "planetscale-desc": "與 MySQL 相容的數據庫。",
+            "shadcn-desc": "通過可重複使用的元件集合增強 UI 開發，提高程式的可重用性。",
+            "stripe-desc": "使用該平台安全地接受和管理在線支付。",
+            "tanstack-desc": "為 React 應用程式提供數據取得、緩存和更新，以實現有效的狀態管理。",
+            "unsplash-desc": "使用圖像 API 獲取的免費高質量圖片。",
+            "zod-desc": "以 TypeScript 為主的形別驗證，確保資料完整性和類型安全。",
+            "zustand-desc": "通過極簡的 API 在 React 應用程式中簡化全域狀態管理。"
+        }
+    }
+}

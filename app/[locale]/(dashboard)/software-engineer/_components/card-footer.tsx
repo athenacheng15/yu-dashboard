@@ -1,27 +1,31 @@
 'use client';
 
-import { DisplayRepoType } from '@/types/repositories';
+import type { DisplayRepoType } from '@/types/repositories';
 
-import { useRouter } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 import { Github, Link2, Clock2, PencilLine } from 'lucide-react';
 import dayjs from 'dayjs';
 
 import { Button } from '@/components/ui/button';
 
 export const CardFooter = ({ repo }: { repo: DisplayRepoType }) => {
-    const router = useRouter();
+    const t = useTranslations('common');
 
     return (
         <div className="flex w-full flex-col items-start justify-end sm:flex-row sm:items-center sm:justify-between">
             <div className="mb-2 mr-1 text-[10px] text-main-green sm:mb-0">
                 <div className="flex items-center">
                     <PencilLine className="mr-1 h-4 w-3 text-main-green" />
-                    <p className="hidden sm:flex">Updated : {dayjs(repo.updated_at).format('YYYY/MM/DD')}</p>
+                    <p className="hidden sm:flex">
+                        {t('updated')}: {dayjs(repo.updated_at).format('YYYY/MM/DD')}
+                    </p>
                     <p className="sm:hidden">{dayjs(repo.updated_at).format('YYYY/MM/DD')}</p>
                 </div>
                 <div className="flex items-center">
                     <Clock2 className="mr-1 h-4 w-3 text-main-green" />
-                    <p className="hidden sm:flex">Created : {dayjs(repo.created_at).format('YYYY/MM/DD')}</p>
+                    <p className="hidden sm:flex">
+                        {t('created')} : {dayjs(repo.created_at).format('YYYY/MM/DD')}
+                    </p>
                     <p className="sm:hidden">{dayjs(repo.created_at).format('YYYY/MM/DD')}</p>
                 </div>
             </div>

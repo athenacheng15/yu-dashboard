@@ -1,17 +1,19 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 import { Code2, Home } from 'lucide-react';
 
+import { useRouter } from '@/navigation';
 import { Button } from '@/components/ui/button';
 
 export const ChannelBtn = () => {
     const router = useRouter();
+    const t = useTranslations('common');
 
     const channelInfo = [
-        { title: 'Home', icon: <Home className="w-4" />, href: '/' },
+        { title: t('home'), icon: <Home className="w-4" />, href: '/' },
         {
-            title: 'SoftWare Engineer',
+            title: t('software-engineer'),
             icon: <Code2 className="w-4" />,
             href: '/software-engineer',
         },
@@ -27,9 +29,7 @@ export const ChannelBtn = () => {
                         router.push(item.href);
                     }}
                 >
-                    <div className="group-hover:text-main-dark-green">
-                        {item.icon}
-                    </div>
+                    <div className="group-hover:text-main-dark-green">{item.icon}</div>
                     <p className="mt-1">{item.title}</p>
                 </Button>
             ))}

@@ -1,12 +1,16 @@
 import type { DisplayRepoDetailType } from '@/types/repositories';
 
-import { Github, Link2, Clock2, PencilLine } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import { Clock2, PencilLine } from 'lucide-react';
 import dayjs from 'dayjs';
 
 import { NavigateBtns } from './navigate-btns';
 
 export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null }) => {
     if (!repoDetail) return null;
+
+    const t = useTranslations('common');
+
     return (
         <div className="relative z-10 mb-8 flex h-full w-full flex-col rounded-xl border-2 border-main-green bg-white p-4 text-main-green shadow-solid-lg md:flex-row">
             <div className="space-y-3 md:grow">
@@ -29,7 +33,7 @@ export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null
                         <div className="flex flex-nowrap items-center">
                             <Clock2 className="mr-1 h-4 w-3 text-main-green" />
                             <div className="flex flex-wrap">
-                                <p className="hidden md:block">Created</p>
+                                <p className="hidden md:block">{t('created')}</p>
                                 <p className="hidden md:block">{`：`}</p>
                                 <p>{dayjs(repoDetail.created_at).format('YYYY/MM/DD')}</p>
                             </div>
@@ -37,7 +41,7 @@ export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null
                         <div className="flex flex-nowrap items-center">
                             <PencilLine className="mr-1 h-4 w-3 text-main-green" />
                             <div className="flex flex-wrap">
-                                <p className="hidden md:block">Updated</p>
+                                <p className="hidden md:block">{t('updated')}</p>
                                 <p className="hidden md:block">{`：`}</p>
                                 <p>{dayjs(repoDetail.updated_at).format('YYYY/MM/DD')}</p>
                             </div>

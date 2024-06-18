@@ -1,4 +1,5 @@
-import { Github, Link2, Clock2, PencilLine } from 'lucide-react';
+import { useTranslations } from 'next-intl';
+import { Github, Link2 } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 
@@ -8,10 +9,11 @@ interface Props {
 }
 
 export const NavigateBtns = ({ githubUrl, webSiteUrl }: Props) => {
+    const t = useTranslations('common');
     return (
         <>
             <Button
-                className="flex h-8 w-full justify-start"
+                className="flex h-8 w-full items-center justify-start"
                 variant="outline"
                 onClick={e => {
                     e.stopPropagation();
@@ -19,11 +21,10 @@ export const NavigateBtns = ({ githubUrl, webSiteUrl }: Props) => {
                 }}
             >
                 <Github className="mr-1 w-5" />
-                <p className="hidden sm:flex"> View </p>
-                Github
+                <p className="hidden sm:flex">{t('view-github')}</p>
             </Button>
             <Button
-                className="flex h-8 w-full justify-start"
+                className="flex h-8 w-full items-center justify-start"
                 variant="outline"
                 onClick={e => {
                     e.stopPropagation();
@@ -31,8 +32,7 @@ export const NavigateBtns = ({ githubUrl, webSiteUrl }: Props) => {
                 }}
             >
                 <Link2 className="mr-1 w-5" />
-                <p className="hidden sm:flex"> Go To </p>
-                Website
+                <p className="hidden sm:flex">{t('go-to-website')}</p>
             </Button>
         </>
     );

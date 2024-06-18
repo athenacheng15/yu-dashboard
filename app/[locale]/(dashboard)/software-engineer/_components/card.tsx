@@ -1,7 +1,7 @@
 'use client';
-import { DisplayRepoType } from '@/types/repositories';
-import { useRouter } from 'next/navigation';
+import type { DisplayRepoType } from '@/types/repositories';
 
+import { useRouter } from '@/navigation';
 import { Separator } from '@/components/ui/separator';
 
 import { CardFooter } from './card-footer';
@@ -12,7 +12,7 @@ export const Card = ({ repo }: { repo: DisplayRepoType }) => {
 
     return (
         <div
-            className="shadow-solid-md hover:shadow-solid-lg group group flex cursor-pointer flex-col justify-between rounded-xl border-2 border-main-green bg-white/70 p-3 transition hover:-translate-x-1 hover:-translate-y-1 hover:bg-[#F2F7F2]/70 sm:p-4"
+            className="group group flex cursor-pointer flex-col justify-between rounded-xl border-2 border-main-green bg-white/70 p-3 shadow-solid-md transition hover:-translate-x-1 hover:-translate-y-1 hover:bg-[#F2F7F2]/70 hover:shadow-solid-lg sm:p-4"
             onClick={() => router.push(`/software-engineer/${repo.name}`)}
         >
             <div className="flex w-full flex-col gap-2">
