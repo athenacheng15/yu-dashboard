@@ -1,9 +1,7 @@
 'use client';
 
 import type { IProject } from '@/database/type';
-import type { TechStackKey } from '@/database/techStacksImgUrl';
 import type { WebDevToolkitImgUrlKey } from '@/database/webDevToolkitImgUrl';
-import { tackStacksImg } from '@/database/tech-stack-images';
 
 import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
