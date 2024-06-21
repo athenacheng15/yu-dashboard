@@ -16,9 +16,7 @@ export const InfoModal = () => {
         <Dialog open={infoModal.isOpen} onOpenChange={infoModal.onClose}>
             <DialogContent className="w-64 max-w-md overflow-hidden ">
                 <DialogHeader>
-                    <DialogTitle className="text-lg">
-                        {infoModal.infoData?.title}
-                    </DialogTitle>
+                    <DialogTitle className="text-lg">{infoModal.infoData?.title}</DialogTitle>
                 </DialogHeader>
                 <div className="my-3 mb-4 flex flex-col items-center space-y-3">
                     {infoModal.infoData?.content.map(item => (
@@ -26,7 +24,10 @@ export const InfoModal = () => {
                             key={item.title}
                             variant="ghost"
                             className="text-md group flex h-12 w-40 items-center justify-start gap-x-3 space-y-2 pl-6"
-                            onClick={item.onClick}
+                            onClick={() => {
+                                item.onClick();
+                                infoModal.onClose();
+                            }}
                         >
                             {item.icon && (
                                 <div className="flex h-6 w-6 items-center justify-center rounded-sm bg-main-green text-white group-hover:bg-white group-hover:text-main-dark-green">

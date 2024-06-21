@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { Send, Globe } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 import { useInfoModal } from '@/hooks/use-info-modal';
 import { Button } from '@/components/ui/button';
@@ -13,8 +14,9 @@ import { useInfoList } from '../_hooks/use-info-list';
 export const Navbar = () => {
     const infoModal = useInfoModal();
     const { infoList } = useInfoList();
-    const contactData = infoList.find(data => data.title === 'Contact');
-    const languageData = infoList.find(data => data.title === 'Language');
+    const t = useTranslations('common');
+    const contactData = infoList.find(data => data.title === t('contact'));
+    const languageData = infoList.find(data => data.title === t('language'));
 
     return (
         <nav className="fixed top-0 z-50 flex h-14 w-full items-center justify-between border-b bg-main-green px-4 shadow-sm md:hidden">

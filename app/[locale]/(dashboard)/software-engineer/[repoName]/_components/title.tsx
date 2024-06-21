@@ -50,13 +50,21 @@ export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null
                         </div>
                     </div>
                     <div className="flex space-x-2 md:hidden">
-                        <NavigateBtns githubUrl={repoDetail.html_url} webSiteUrl={repoDetail.homepage} />
+                        <NavigateBtns
+                            isWebsiteUnabled={repoDetail.isWebsiteUnabled}
+                            githubUrl={repoDetail.html_url}
+                            webSiteUrl={repoDetail.homepage}
+                        />
                     </div>
                 </div>
             </div>
             <div className="mx-4 hidden w-[2px] bg-[#92AA94] md:block"></div>
             <div className="hidden w-40 flex-col items-center justify-center space-y-4 md:flex">
-                <NavigateBtns githubUrl={repoDetail.html_url} webSiteUrl={repoDetail.homepage} />
+                <NavigateBtns
+                    isWebsiteUnabled={repoDetail.isWebsiteUnabled}
+                    githubUrl={repoDetail.html_url}
+                    webSiteUrl={repoDetail.homepage}
+                />
             </div>
         </div>
     );

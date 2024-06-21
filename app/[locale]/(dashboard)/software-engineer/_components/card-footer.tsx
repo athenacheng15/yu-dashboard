@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import { Github, Link2, Clock2, PencilLine } from 'lucide-react';
 import dayjs from 'dayjs';
 
-import { Button } from '@/components/ui/button';
+import { TooltipButton } from '@/components/buttons/tooltip-button';
 
 export const CardFooter = ({ repo }: { repo: DisplayRepoType }) => {
     const t = useTranslations('common');
@@ -30,7 +30,8 @@ export const CardFooter = ({ repo }: { repo: DisplayRepoType }) => {
                 </div>
             </div>
             <div className="flex w-full flex-col space-y-2 sm:w-auto sm:flex-row sm:justify-end sm:space-x-2 sm:space-y-0">
-                <Button
+                <TooltipButton
+                    tooltipContant={t('view-github')}
                     className="h-8"
                     variant="outline"
                     onClick={e => {
@@ -39,8 +40,10 @@ export const CardFooter = ({ repo }: { repo: DisplayRepoType }) => {
                     }}
                 >
                     <Github className="w-5" />
-                </Button>
-                <Button
+                </TooltipButton>
+                <TooltipButton
+                    tooltipContant={repo.isWebsiteUnabled ? t('maintain-message') : t('go-to-website')}
+                    disabled={repo.isWebsiteUnabled}
                     className="h-8"
                     variant="outline"
                     onClick={e => {
@@ -49,7 +52,7 @@ export const CardFooter = ({ repo }: { repo: DisplayRepoType }) => {
                     }}
                 >
                     <Link2 className="w-5" />
-                </Button>
+                </TooltipButton>
             </div>
         </div>
     );

@@ -16,7 +16,8 @@
         "tech-stack": "技術選用",
         "libraries": "輔助工具",
         "report-bug": "回報問題",
-        "create-issue": "建立 Issue"
+        "create-issue": "建立 Issue",
+        "maintain-message": "網站維護中"
     },
     "home": {
         "phase-1": "嗨，我是羽均。首先，感謝您的光臨。對我來說，好好地記錄生活和職涯非常重要，讓我可以反思自己的成長。這也是我建立這個網站的原因。從UI設計到coding，您在這裡看到的一切都是我努力的成果。",
