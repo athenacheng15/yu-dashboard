@@ -1,6 +1,7 @@
 import type { IProject } from './type';
 
 import { airbnbCloneImg, githubIssuesCloneImg, spotifyCloneImg, trelloCloneImg } from './repo-images';
+import { tackStacksImg } from './tech-stack-images';
 
 export const repostories: {
     [key: string]: IProject;
@@ -23,7 +24,13 @@ export const repostories: {
             { id: 'airbnb-clone-img-11', desc: 'desc-11', imageUrl: airbnbCloneImg.img_11 },
             { id: 'airbnb-clone-img-12', desc: 'desc-12', imageUrl: airbnbCloneImg.img_12 },
         ],
-        techStacks: ['next-js', 'typescript', 'tailwindcss', 'prisma', 'mongodb'],
+        techStacks: [
+            { id: 'next-js', desc: 'next-js', imageUrl: tackStacksImg['next-js'] },
+            { id: 'typescript', desc: 'typescript', imageUrl: tackStacksImg['typescript'] },
+            { id: 'tailwindcss', desc: 'tailwindcss', imageUrl: tackStacksImg['tailwindcss'] },
+            { id: 'prisma', desc: 'prisma', imageUrl: tackStacksImg['prisma'] },
+            { id: 'mongodb', desc: 'mongodb', imageUrl: tackStacksImg['mongodb'] },
+        ],
         webDevToolkits: [
             { id: 'next-auth-js', name: 'NextAuth.js', desc: 'nextauth-desc' },
             { id: 'cloudinary', name: 'Cloudinary', desc: 'cloudinary-desc' },
@@ -47,7 +54,13 @@ export const repostories: {
             { id: 'trello-clone-img-10', desc: 'desc-10', imageUrl: trelloCloneImg.img_10 },
             { id: 'trello-clone-img-11', desc: 'desc-11', imageUrl: trelloCloneImg.img_11 },
         ],
-        techStacks: ['next-js', 'typescript', 'tailwindcss', 'prisma', 'mysql'],
+        techStacks: [
+            { id: 'next-js', desc: 'next-js', imageUrl: tackStacksImg['next-js'] },
+            { id: 'typescript', desc: 'typescript', imageUrl: tackStacksImg['typescript'] },
+            { id: 'tailwindcss', desc: 'tailwindcss', imageUrl: tackStacksImg['tailwindcss'] },
+            { id: 'prisma', desc: 'prisma', imageUrl: tackStacksImg['prisma'] },
+            { id: 'mysql', desc: 'mysql', imageUrl: tackStacksImg['mysql'] },
+        ],
         webDevToolkits: [
             { id: 'clerk', name: 'Clerk', desc: 'clerk-desc' },
             { id: 'planetscale', name: 'Planetscale', desc: 'planetscale-desc' },
@@ -72,7 +85,12 @@ export const repostories: {
             { id: 'spotify-clone-img-6', desc: 'desc-6', imageUrl: spotifyCloneImg.img_6 },
             { id: 'spotify-clone-img-7', desc: 'desc-7', imageUrl: spotifyCloneImg.img_7 },
         ],
-        techStacks: ['next-js', 'typescript', 'tailwindcss', 'postgresql'],
+        techStacks: [
+            { id: 'next-js', desc: 'next-js', imageUrl: tackStacksImg['next-js'] },
+            { id: 'typescript', desc: 'typescript', imageUrl: tackStacksImg['typescript'] },
+            { id: 'tailwindcss', desc: 'tailwindcss', imageUrl: tackStacksImg['tailwindcss'] },
+            { id: 'postgresql', desc: 'postgresql', imageUrl: tackStacksImg['postgresql'] },
+        ],
         webDevToolkits: [
             { id: 'zustand', name: 'Zustand', desc: 'zustand-desc' },
             { id: 'supabase', name: 'Supabase', desc: 'supabase-desc' },
@@ -82,6 +100,7 @@ export const repostories: {
     'github-issues-clone': {
         tags: ['FrontEnd'],
         coverImageUrl: githubIssuesCloneImg.img_1,
+        keyFeatures: ['desc-1', 'desc-2', 'desc-3', 'desc-4', 'desc-5', 'desc-6', 'desc-7', 'desc-8'],
         snapshots: [
             { id: 'github-issues-clone-img-1', desc: 'desc-1', imageUrl: githubIssuesCloneImg.img_1 },
             { id: 'github-issues-clone-img-2', desc: 'desc-2', imageUrl: githubIssuesCloneImg.img_2 },
@@ -93,8 +112,13 @@ export const repostories: {
             { id: 'github-issues-clone-img-8', desc: 'desc-8', imageUrl: githubIssuesCloneImg.img_8 },
             { id: 'github-issues-clone-img-9', desc: 'desc-9', imageUrl: githubIssuesCloneImg.img_9 },
         ],
-        keyFeatures: ['desc-1', 'desc-2', 'desc-3', 'desc-4', 'desc-5', 'desc-6', 'desc-7', 'desc-8'],
-        techStacks: ['react-js', 'typescript', 'styled-components', 'redux', 'firebase'],
+        techStacks: [
+            { id: 'react-js', desc: 'react-js', imageUrl: tackStacksImg['react-js'] },
+            { id: 'typescript', desc: 'typescript', imageUrl: tackStacksImg['typescript'] },
+            { id: 'styled-components', desc: 'styled-components', imageUrl: tackStacksImg['styled-components'] },
+            { id: 'redux', desc: 'redux', imageUrl: tackStacksImg['redux'] },
+            { id: 'firebase', desc: 'firebase', imageUrl: tackStacksImg['firebase'] },
+        ],
         webDevToolkits: [
             { id: 'storybook', name: 'StoryBook', desc: 'storybook-desc' },
             { id: 'supabase', name: 'Supabase', desc: 'supabase-desc' },

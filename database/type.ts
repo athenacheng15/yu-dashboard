@@ -5,6 +5,11 @@ export interface ISnapshot {
     desc: string;
     imageUrl: StaticImageData;
 }
+export interface ITechStack {
+    id: string;
+    desc: string;
+    imageUrl: StaticImageData;
+}
 
 export interface IWebDevToolkit {
     id: string;
@@ -17,6 +22,6 @@ export interface IProject {
     coverImageUrl: StaticImageData;
     keyFeatures: string[];
     snapshots: ISnapshot[];
-    techStacks: string[];
+    techStacks: ITechStack[];
     webDevToolkits: IWebDevToolkit[];
 }
