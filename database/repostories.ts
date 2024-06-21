@@ -40,6 +40,7 @@ export const repostories: {
     'trello-clone': {
         tags: ['FullStack'],
         coverImageUrl: trelloCloneImg.img_1,
+        isWebsiteUnabled: true,
         keyFeatures: ['desc-1', 'desc-2', 'desc-3', 'desc-4', 'desc-5', 'desc-6', 'desc-7', 'desc-8'],
         snapshots: [
             { id: 'trello-clone-img-1', desc: 'desc-1', imageUrl: trelloCloneImg.img_1 },

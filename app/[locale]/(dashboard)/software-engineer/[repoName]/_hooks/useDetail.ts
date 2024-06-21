@@ -35,7 +35,7 @@ export const useDetail = ({ repoName }: { repoName: string }): ReturnType => {
                     homepage: data.homepage,
                     created_at: data.created_at,
                     updated_at: data.updated_at,
-                    ...pick(repostories[data.name], ['tags']),
+                    ...pick(repostories[data.name], ['tags', 'isWebsiteUnabled']),
                 };
                 setRepoDetail(formattedRepos);
             } catch (error) {

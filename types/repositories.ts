@@ -19,6 +19,7 @@ export interface DisplayRepoType {
     updated_at: string;
     tags: string[];
     coverImageUrl: StaticImageData;
+    isWebsiteUnabled?: boolean;
 }
 
 export interface RepoDetailType {
@@ -40,4 +41,5 @@ export interface DisplayRepoDetailType {
     created_at: string;
     updated_at: string;
     tags: string[];
+    isWebsiteUnabled?: boolean;
 }

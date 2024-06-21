@@ -20,6 +20,7 @@ export interface IWebDevToolkit {
 export interface IProject {
     tags: string[];
     coverImageUrl: StaticImageData;
+    isWebsiteUnabled?: boolean;
     keyFeatures: string[];
     snapshots: ISnapshot[];
     techStacks: ITechStack[];

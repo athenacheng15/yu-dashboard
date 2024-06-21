@@ -16,7 +16,8 @@
         "tech-stack": "Tech Stack",
         "libraries": "Web Dev Toolkits",
         "report-bug": "Report bug",
-        "create-issue": "Create Issue"
+        "create-issue": "Create Issue",
+        "maintain-message": "The website is under maintenance."
     },
     "home": {
         "phase-1": "Hey there, It's Yuchun here. First of all, thank you for stopping by. It's important for me to properly document my life and career journey, allowing me to reflect on my growth. That's why I created this website. From UI design to coding, everything you see here is the result of my hard work.",
