@@ -11,8 +11,8 @@ export default function Home() {
     const t = useTranslations('home');
 
     return (
-        <div className="flex h-full w-full items-center justify-center text-neutral-700">
-            <div className="flex h-full w-72 flex-col items-center justify-center gap-y-6 text-justify indent-8 font-medium text-main-dark-green md:mt-12 md:w-[560px] md:text-lg">
+        <div className="flex w-full items-center justify-center">
+            <div className="flex h-[82vh] flex-col items-center justify-center gap-y-6 px-3 text-justify indent-8 font-normal text-main-dark-green md:mt-12 md:w-[560px] md:text-base">
                 <div>{t('phase-1')}</div>
                 <div>{t('phase-2')}</div>
                 <div>{t('phase-3')}</div>
