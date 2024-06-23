@@ -21,7 +21,7 @@ export const useGetRepos = async (): Promise<DisplayRepoType[]> => {
             homepage: repo.homepage,
             created_at: repo.created_at,
             updated_at: repo.updated_at,
-            ...pick(repostories[repo.name], ['tags', 'coverImageUrl', 'isWebsiteUnabled']),
+            ...pick(repostories[repo.name], ['coverImageUrl', 'techStacks', 'isWebsiteUnabled']),
         }));
         return formattedRepos;
     } catch (error) {
