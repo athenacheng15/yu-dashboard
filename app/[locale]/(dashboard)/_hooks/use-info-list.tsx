@@ -1,5 +1,7 @@
 'use client';
 
+import type { InfoSection } from '@/types/info';
+
 import { Send, Globe, Linkedin, Github, Mail } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
@@ -13,9 +15,10 @@ export const useInfoList = () => {
     const handleChange = (locale: string) => {
         router.push(pathname, { locale });
     };
-    const infoList = [
+    const infoList: InfoSection[] = [
         {
             title: t('contact'),
+            value: 'contact',
             icon: <Send className="w-4" />,
             content: [
                 {
@@ -41,25 +44,26 @@ export const useInfoList = () => {
         },
         {
             title: t('language'),
+            value: 'language',
             icon: <Globe className="w-4" />,
             content: [
                 {
                     title: '繁體中文',
-                    icon: '',
+                    value: 'zh-TW',
                     onClick: () => {
                         handleChange('zh-TW');
                     },
                 },
                 {
                     title: 'English',
-                    icon: '',
+                    value: 'en',
                     onClick: () => {
                         handleChange('en');
                     },
                 },
                 {
                     title: '日本語',
-                    icon: '',
+                    value: 'ja',
                     onClick: () => {
                         handleChange('ja');
                     },
