@@ -12,7 +12,7 @@ export const Tags = ({ onChange }: ITag) => {
         { label: 'Next.js', value: 'next-js' },
         { label: 'React.js', value: 'react-js' },
         { label: 'TypeScript', value: 'typescript' },
-        { label: 'Tailwind', value: 'tailwindcss' },
+        { label: 'TailwindCss', value: 'tailwindcss' },
         { label: 'Prisma', value: 'prisma' },
         { label: 'MongoDB', value: 'mongodb' },
         { label: 'PostgreSQL', value: 'postgresql' },

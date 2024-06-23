@@ -35,7 +35,8 @@ export const ImgCarousel = ({ imgList }: ImgCarouselProps) => {
                                 alt={item.id}
                                 className="rounded-lg border-2 border-main-light-green"
                             />
-                            <p className="mt-2 text-sm text-gray-500">{item.desc}</p>
+
+                            <p className="mt-2 text-sm text-gray-500"> {/* TODO img desc*/}</p>
                         </div>
                     </CarouselItem>
                 ))}
