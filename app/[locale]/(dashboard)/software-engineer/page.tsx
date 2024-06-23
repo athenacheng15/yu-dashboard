@@ -7,23 +7,13 @@ import type { DisplayRepoType } from '@/types/repositories';
 import { Card } from './_components/card';
 import { Tags } from './_components/tags';
 
-import { useGetRepos } from '@/hooks/useGetRepos';
+import { useGetRepos } from './_hooks/useGetRepos';
 
 export default function SoftwareEngineerPage() {
     const [selectedTag, setSelectedTag] = useState('all');
-    const [repos, setRepos] = useState<DisplayRepoType[]>([]);
+    const { isLoading, repos } = useGetRepos();
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const repoData = await useGetRepos();
-                setRepos(repoData);
-            } catch (err) {
-                console.error('fetch repos error', err);
-            }
-        };
-        fetchData();
-    }, []);
+    if (!repos) return null;
 
     const handleTagChange = (tag: string) => {
         setSelectedTag(tag);

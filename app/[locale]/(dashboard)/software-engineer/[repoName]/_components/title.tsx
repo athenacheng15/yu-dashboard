@@ -9,9 +9,8 @@ import dayjs from 'dayjs';
 import { NavigateBtns } from './navigate-btns';
 
 export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null }) => {
-    if (!repoDetail) return null;
-
     const t = useTranslations('common');
+    if (!repoDetail) return null;
 
     return (
         <div className="relative z-10 mb-8 flex h-full w-full flex-col rounded-xl border-2 border-main-green bg-white p-4 text-main-green shadow-solid-lg md:flex-row">
