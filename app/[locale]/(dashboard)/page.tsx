@@ -12,7 +12,7 @@ export default function Home() {
 
     return (
         <div className="flex w-full items-center justify-center">
-            <div className="flex h-[82vh] flex-col items-center justify-center gap-y-6 px-3 text-justify indent-8 font-normal text-main-dark-green md:mt-12 md:w-[560px] md:text-base">
+            <div className="flex flex-col items-center justify-center gap-y-6 px-3 text-justify indent-8 font-normal text-main-dark-green md:mt-12 md:h-[82vh] md:w-[560px] md:text-base">
                 <div>{t('phase-1')}</div>
                 <div>{t('phase-2')}</div>
                 <div>{t('phase-3')}</div>
