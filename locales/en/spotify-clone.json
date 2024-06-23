@@ -1,0 +1,16 @@
+{
+    "keyFeatures": {
+        "desc-1": "Song management with features like upload, play, favorites, and playlists.",
+        "desc-2": "Integration of Stripe for recurring payments and cancellation.",
+        "desc-3": "Handling of databases using Supabase and PostgreSQL.",
+        "desc-4": "Design of sleek UI with Tailwind, including animations and responsiveness.",
+        "desc-5": "Implementation of authentication with credentials and GitHub, ensuring secure user registration and login processes.",
+        "desc-6": "The server-side routes and handlers for POST, GET, and DELETE requests.",
+        "desc-7": "Real-time data fetching and management of component relations without APIs."
+    },
+    "webDevToolkits": {
+        "supabase-desc": "Handling database operations and implementing authentication with credentials and GitHub.",
+        "stripe-desc": "Managing recurring payments and cancellation for subscriptions.",
+        "zustand-desc": "Simplifying global state management in React applications with a minimalistic API."
+    }
+}

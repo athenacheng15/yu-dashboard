@@ -1,0 +1,16 @@
+{
+    "keyFeatures": {
+        "desc-1": "Allows users to list, create, update, and delete labels for better organization of issues.",
+        "desc-2": "Provides a comprehensive view of issues, including their state, title, labels, number, and other relevant details.",
+        "desc-3": "Offers pagination and various filters such as 'Your issues,' 'Everything assigned to you,' and 'Everything mentioning you'.",
+        "desc-4": "Supports filtering by state, label, and assignee, and sorting options include newest, oldest, most commented, and more.",
+        "desc-5": "Displays detailed information about individual issues, including title, state, user, creation/closing timestamps, comments, assignees, and labels.",
+        "desc-6": "Allows users to list, create, update comments, and view a timeline and reactions for additional context.",
+        "desc-7": "Enables users to create new issues with specified titles, descriptions, assignees, and labels, supporting Markdown for formatting.",
+        "desc-8": "Allows users to securely authenticate and access the platform using Github OAuth authentication."
+    },
+    "webDevToolkits": {
+        "storybook-desc": "Facilitate the development, testing, and documentation of UI components in isolation.",
+        "supabase-desc": "To enable GitHub Auth for the project."
+    }
+}

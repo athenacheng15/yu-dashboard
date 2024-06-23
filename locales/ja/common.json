@@ -1,0 +1,16 @@
+{
+    "software-engineer": "ソフトウェアエンジニア",
+    "urban-planner": "都市計画家",
+    "contact": "連絡先",
+    "language": "言語",
+    "created": "作成日",
+    "updated": "更新日",
+    "view_github": "Githubを閲覧",
+    "go_to_website": "ウェブサイトへ",
+    "features": "主要機能",
+    "snapshot": "ウェブページのスナップショット",
+    "tech-stack": "技術スタック",
+    "libraries": "ライブラリ",
+    "report-bug": "バグを報告",
+    "create-issue": "Issueを作成"
+}

@@ -1,0 +1,100 @@
+{
+    "common": {
+        "name": "YuChun Cheng",
+        "home": "Home",
+        "software-engineer": "Software Engineer",
+        "urban-planner": "Urban Planner",
+        "contact": "Contact",
+        "email": "Email",
+        "language": "Language",
+        "created": "Created",
+        "updated": "Updated",
+        "view-github": "View Github",
+        "go-to-website": "Go To Website",
+        "features": "Features",
+        "snapshot": "Snapshot",
+        "tech-stack": "Tech Stack",
+        "libraries": "Web Dev Toolkits",
+        "report-bug": "Report bug",
+        "create-issue": "Create Issue",
+        "maintain-message": "The website is under maintenance."
+    },
+    "home": {
+        "phase-1": "Hey there, It's Yuchun here. First of all, thank you for stopping by. It's important for me to properly document my life and career journey, allowing me to reflect on my growth. That's why I created this website. From UI design to coding, everything you see here is the result of my hard work.",
+        "phase-2": "I used to work as an urban planner and architect, but now I'm a software engineer at an e-commerce company, mainly focusing on frontend development. While frontend is my specialty, I'm also actively learning full-stack skills to broaden my professional knowledge and ability.",
+        "phase-3": "Currently, the website primarily showcases some coding-related projects, but I also plan to incorporate some content related to architecture and urban planning in the future, as both are crucial aspects of my life. Wish you can feel my passion and professionalism while exploring the website. Enjoy your browsing!",
+        "go-explore": "Go Explore !"
+    },
+    "airbnb-clone": {
+        "keyFeatures": {
+            "desc-1": "Implement search filters for guests to find accommodations by property, location, dates, and room specifics.",
+            "desc-2": "Group houses by property type, allowing users to select from the homepage.",
+            "desc-3": "Provide detailed pages with photos, descriptions, availability, and pricing for informed choices.",
+            "desc-4": "Use a date picker for stay periods and automatic price calculation.",
+            "desc-5": "Add a wishlist feature for saving and organizing properties.",
+            "desc-6": "Allow hosts to upload listings with photos, location, pricing, and room details.",
+            "desc-7": "Display booked trips with cancellation options.",
+            "desc-8": "List hosts' properties with delete functionality.",
+            "desc-9": "Enable login/signup via email, Google, or GitHub accounts."
+        },
+        "webDevToolkits": {
+            "nextauth-desc": "Add authentication to project for various login methods.",
+            "cloudinary-desc": "Uploading, storage, optimization, and delivery of images",
+            "zustand-desc": "Simplify global state management in React applications with a minimalistic API."
+        }
+    },
+    "github-issues-clone": {
+        "keyFeatures": {
+            "desc-1": "Allows users to list, create, update, and delete labels for better organization of issues.",
+            "desc-2": "Provides a comprehensive view of issues, including their state, title, labels, number, and other relevant details.",
+            "desc-3": "Offers pagination and various filters such as 'Your issues,' 'Everything assigned to you,' and 'Everything mentioning you'.",
+            "desc-4": "Supports filtering by state, label, and assignee, and sorting options include newest, oldest, most commented, and more.",
+            "desc-5": "Displays detailed information about individual issues, including title, state, user, creation/closing timestamps, comments, assignees, and labels.",
+            "desc-6": "Allows users to list, create, update comments, and view a timeline and reactions for additional context.",
+            "desc-7": "Enables users to create new issues with specified titles, descriptions, assignees, and labels, supporting Markdown for formatting.",
+            "desc-8": "Allows users to securely authenticate and access the platform using Github OAuth authentication."
+        },
+        "webDevToolkits": {
+            "storybook-desc": "Facilitate the development, testing, and documentation of UI components in isolation.",
+            "supabase-desc": "To enable GitHub Auth for the project."
+        }
+    },
+    "spotify-clone": {
+        "keyFeatures": {
+            "desc-1": "Song management with features like upload, play, favorites, and playlists.",
+            "desc-2": "Integration of Stripe for recurring payments and cancellation.",
+            "desc-3": "Handling of databases using Supabase and PostgreSQL.",
+            "desc-4": "Design of sleek UI with Tailwind, including animations and responsiveness.",
+            "desc-5": "Implementation of authentication with credentials and GitHub, ensuring secure user registration and login processes.",
+            "desc-6": "The server-side routes and handlers for POST, GET, and DELETE requests.",
+            "desc-7": "Real-time data fetching and management of component relations without APIs."
+        },
+        "webDevToolkits": {
+            "supabase-desc": "Handling database operations and implementing authentication with credentials and GitHub.",
+            "stripe-desc": "Managing recurring payments and cancellation for subscriptions.",
+            "zustand-desc": "Simplifying global state management in React applications with a minimalistic API."
+        }
+    },
+    "trello-clone": {
+        "keyFeatures": {
+            "desc-1": "Landing page.",
+            "desc-2": "Auth for Organizational and Personal Workspace Usage Rights.",
+            "desc-3": "Fetching Unsplash image API for random beautiful cover images.",
+            "desc-4": "CRUD Operations for Boards, Lists, and Cards.",
+            "desc-5": "Activity log for Card and entire organization.",
+            "desc-6": "Rename, drag & drop reorder and copy functions of List and Card.",
+            "desc-7": "Board limit for every organization.",
+            "desc-8": "Stripe subscription for each organization to unlock unlimited boards."
+        },
+        "webDevToolkits": {
+            "clerk-desc": "Simplify user authentication and identity management with customizable features.",
+            "planetscale-desc": "MySQL-compatible database.",
+            "shadcn-desc": "Enhance UI development with a collection of reusable components for improved code reusability.",
+            "stripe-desc": "Securely accept and manage payments online with this robust payment processing platform.",
+            "tanstack-desc": "Streamline data fetching, caching, and updates in React applications for efficient state management.",
+            "unsplash-desc": "Get the largest free collection of high-quality images using the Image api.",
+            "zod-desc": "Ensure data integrity and type safety with TypeScript-first schema declaration and validation.",
+            "zustand-desc": "Simplify global state management in React applications with a minimalistic API."
+        }
+    }
+}
