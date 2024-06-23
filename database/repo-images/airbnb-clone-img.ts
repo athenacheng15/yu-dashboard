@@ -2,9 +2,9 @@ import { StaticImageData } from 'next/image';
 
 import img_1 from '@/public/repo-images/airbnb-clone/img-1.png';
 import img_2 from '@/public/repo-images/airbnb-clone/img-2.png';
-import img_3 from '@/public/repo-images/airbnb-clone/Img-3.png';
+import img_3 from '@/public/repo-images/airbnb-clone/img-3.png';
 import img_4 from '@/public/repo-images/airbnb-clone/img-4.png';
-import img_5 from '@/public/repo-images/airbnb-clone/Img-5.png';
+import img_5 from '@/public/repo-images/airbnb-clone/img-5.png';
 import img_6 from '@/public/repo-images/airbnb-clone/img-6.png';
 import img_7 from '@/public/repo-images/airbnb-clone/img-7.png';
 import img_8 from '@/public/repo-images/airbnb-clone/img-8.png';
