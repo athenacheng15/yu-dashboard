@@ -22,11 +22,6 @@ export const useInfoList = () => {
             icon: <Send className="w-4" />,
             content: [
                 {
-                    title: t('email'),
-                    icon: <Mail className="w-4" />,
-                    onClick: () => {},
-                },
-                {
                     title: 'Linkedin',
                     icon: <Linkedin className="w-4" />,
                     onClick: () => {
