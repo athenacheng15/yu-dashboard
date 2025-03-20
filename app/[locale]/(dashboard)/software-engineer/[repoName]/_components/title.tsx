@@ -28,42 +28,55 @@ export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null
                         ))}
                     </div>
                 </div>
-                <p className="text-sm text-gray-400">{repoDetail.description}</p>
+                <p className="text-sm text-gray-600">{repoDetail.description}</p>
+                <p className="text-sm text-gray-400">({t('confidentiality-agreements-img')})</p>
                 <div className="flex flex-wrap justify-between">
-                    <div className="mr-2 flex flex-col space-y-1 text-xs md:flex-row md:space-x-3 md:space-y-0">
-                        <div className="flex flex-nowrap items-center">
-                            <Clock2 className="mr-1 h-4 w-3 text-main-green" />
-                            <div className="flex flex-wrap">
-                                <p className="hidden md:block">{t('created')}</p>
-                                <p className="hidden md:block">{`：`}</p>
-                                <p>{dayjs(repoDetail.created_at).format('YYYY/MM/DD')}</p>
+                    {(repoDetail.created_at || repoDetail.updated_at) && (
+                        <div className="mr-2 flex flex-col space-y-1 text-xs md:flex-row md:space-x-3 md:space-y-0">
+                            <div className="flex flex-nowrap items-center">
+                                <Clock2 className="mr-1 h-4 w-3 text-main-green" />
+                                <div className="flex flex-wrap">
+                                    <p className="hidden md:block">{t('created')}</p>
+                                    <p className="hidden md:block">{`：`}</p>
+                                    <p>{dayjs(repoDetail.created_at).format('YYYY/MM/DD')}</p>
+                                </div>
+                            </div>
+                            <div className="flex flex-nowrap items-center">
+                                <PencilLine className="mr-1 h-4 w-3 text-main-green" />
+                                <div className="flex flex-wrap">
+                                    <p className="hidden md:block">{t('updated')}</p>
+                                    <p className="hidden md:block">{`：`}</p>
+                                    <p>{dayjs(repoDetail.updated_at).format('YYYY/MM/DD')}</p>
+                                </div>
                             </div>
                         </div>
-                        <div className="flex flex-nowrap items-center">
-                            <PencilLine className="mr-1 h-4 w-3 text-main-green" />
-                            <div className="flex flex-wrap">
-                                <p className="hidden md:block">{t('updated')}</p>
-                                <p className="hidden md:block">{`：`}</p>
-                                <p>{dayjs(repoDetail.updated_at).format('YYYY/MM/DD')}</p>
-                            </div>
-                        </div>
-                    </div>
+                    )}
                     <div className="flex space-x-2 md:hidden">
-                        <NavigateBtns
-                            isWebsiteUnabled={repoDetail.isWebsiteUnabled}
-                            githubUrl={repoDetail.html_url}
-                            webSiteUrl={repoDetail.homepage}
-                        />
+                        {repoDetail.isConfidential ? (
+                            <p className="text-sm text-gray-300">
+                                Due to confidentiality agreements, access to the website and repository is restricted.
+                            </p>
+                        ) : (
+                            <NavigateBtns
+                                isWebsiteUnabled={repoDetail.isWebsiteUnabled}
+                                githubUrl={repoDetail.html_url}
+                                webSiteUrl={repoDetail.homepage}
+                            />
+                        )}
                     </div>
                 </div>
             </div>
             <div className="mx-4 hidden w-[2px] bg-[#92AA94] md:block"></div>
-            <div className="hidden w-40 flex-col items-center justify-center space-y-4 md:flex">
-                <NavigateBtns
-                    isWebsiteUnabled={repoDetail.isWebsiteUnabled}
-                    githubUrl={repoDetail.html_url}
-                    webSiteUrl={repoDetail.homepage}
-                />
+            <div className="hidden w-40 min-w-36 flex-col items-center justify-center space-y-4 md:flex">
+                {repoDetail.isConfidential ? (
+                    <p className="text-sm text-gray-300">{t('confidentiality-agreements')}</p>
+                ) : (
+                    <NavigateBtns
+                        isWebsiteUnabled={repoDetail.isWebsiteUnabled}
+                        githubUrl={repoDetail.html_url}
+                        webSiteUrl={repoDetail.homepage}
+                    />
+                )}
             </div>
         </div>
     );

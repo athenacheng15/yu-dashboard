@@ -2,7 +2,7 @@ import type { StaticImageData } from 'next/image';
 import type { ITechStack } from '@/database/type';
 
 export interface RepoType {
-    id: number;
+    id: number | string;
     name: string;
     description: string;
     html_url: string;
@@ -12,7 +12,7 @@ export interface RepoType {
 }
 
 export interface DisplayRepoType {
-    id: number;
+    id: number | string;
     name: string;
     description: string;
     html_url: string;
@@ -22,10 +22,11 @@ export interface DisplayRepoType {
     techStacks: ITechStack[];
     coverImageUrl: StaticImageData;
     isWebsiteUnabled?: boolean;
+    isConfidential?: boolean;
 }
 
 export interface RepoDetailType {
-    id: number;
+    id: number | string;
     name: string;
     description: string;
     html_url: string;
@@ -35,7 +36,7 @@ export interface RepoDetailType {
 }
 
 export interface DisplayRepoDetailType {
-    id: number;
+    id: number | string;
     name: string;
     description: string;
     html_url: string;
@@ -44,4 +45,5 @@ export interface DisplayRepoDetailType {
     updated_at: string;
     tags: string[];
     isWebsiteUnabled?: boolean;
+    isConfidential?: boolean;
 }
