@@ -6,6 +6,7 @@ import {
     spotifyCloneImg,
     trelloCloneImg,
     paymentGatewayClientDashboardImg,
+    paymentGatewayManagementConsoleImg,
 } from './repo-images';
 import { tackStacksImg } from './tech-stack-images';
 
@@ -134,7 +135,7 @@ export const repostories: {
     'payment-gateway-client-dashboard': {
         tags: ['FrontEnd'],
         isConfidential: true,
-        coverImageUrl: paymentGatewayClientDashboardImg.img_3,
+        coverImageUrl: paymentGatewayClientDashboardImg.img_6,
         keyFeatures: [
             'desc-1',
             'desc-2',
@@ -192,6 +193,151 @@ export const repostories: {
                 id: 'payment-gateway-client-dashboard-img-9',
                 desc: 'desc-9',
                 imageUrl: paymentGatewayClientDashboardImg.img_9,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-10',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayClientDashboardImg.img_10,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-11',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayClientDashboardImg.img_11,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-12',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayClientDashboardImg.img_12,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-13',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayClientDashboardImg.img_13,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-14',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayClientDashboardImg.img_14,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-15',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayClientDashboardImg.img_15,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-16',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayClientDashboardImg.img_16,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-17',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayClientDashboardImg.img_17,
+            },
+        ],
+        techStacks: [
+            { id: 'react-js', desc: 'react-js', imageUrl: tackStacksImg['react-js'] },
+            { id: 'typescript', desc: 'typescript', imageUrl: tackStacksImg['typescript'] },
+            { id: 'tailwindcss', desc: 'tailwindcss', imageUrl: tackStacksImg['tailwindcss'] },
+        ],
+        webDevToolkits: [],
+    },
+    'payment-gateway-management-console': {
+        tags: ['FrontEnd'],
+        isConfidential: true,
+        coverImageUrl: paymentGatewayManagementConsoleImg.img_5,
+        keyFeatures: [
+            'desc-1',
+            'desc-2',
+            'desc-3',
+            'desc-4',
+            'desc-5',
+            'desc-6',
+            'desc-7',
+            'desc-8',
+            'desc-9',
+            'desc-10',
+        ],
+        snapshots: [
+            {
+                id: 'payment-gateway-management-console-img-1',
+                desc: 'desc-1',
+                imageUrl: paymentGatewayManagementConsoleImg.img_1,
+            },
+            {
+                id: 'payment-gateway-management-console-img-2',
+                desc: 'desc-2',
+                imageUrl: paymentGatewayManagementConsoleImg.img_2,
+            },
+            {
+                id: 'payment-gateway-management-console-img-3',
+                desc: 'desc-3',
+                imageUrl: paymentGatewayManagementConsoleImg.img_3,
+            },
+            {
+                id: 'payment-gateway-management-console-img-4',
+                desc: 'desc-4',
+                imageUrl: paymentGatewayManagementConsoleImg.img_4,
+            },
+            {
+                id: 'payment-gateway-management-console-img-5',
+                desc: 'desc-5',
+                imageUrl: paymentGatewayManagementConsoleImg.img_5,
+            },
+            {
+                id: 'payment-gateway-management-console-img-6',
+                desc: 'desc-6',
+                imageUrl: paymentGatewayManagementConsoleImg.img_6,
+            },
+            {
+                id: 'payment-gateway-management-console-img-7',
+                desc: 'desc-7',
+                imageUrl: paymentGatewayManagementConsoleImg.img_7,
+            },
+            {
+                id: 'payment-gateway-management-console-img-8',
+                desc: 'desc-8',
+                imageUrl: paymentGatewayManagementConsoleImg.img_8,
+            },
+            {
+                id: 'payment-gateway-management-console-img-9',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayManagementConsoleImg.img_9,
+            },
+            {
+                id: 'payment-gateway-management-console-img-10',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayManagementConsoleImg.img_10,
+            },
+            {
+                id: 'payment-gateway-management-console-img-11',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayManagementConsoleImg.img_11,
+            },
+            {
+                id: 'payment-gateway-management-console-img-12',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayManagementConsoleImg.img_12,
+            },
+            {
+                id: 'payment-gateway-management-console-img-13',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayManagementConsoleImg.img_13,
+            },
+            {
+                id: 'payment-gateway-management-console-img-14',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayManagementConsoleImg.img_14,
+            },
+            {
+                id: 'payment-gateway-management-console-img-15',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayManagementConsoleImg.img_15,
+            },
+            {
+                id: 'payment-gateway-management-console-img-16',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayManagementConsoleImg.img_16,
             },
         ],
         techStacks: [
