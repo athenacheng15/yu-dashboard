@@ -5,6 +5,7 @@ import type { DisplayRepoDetailType } from '@/types/repositories';
 import { useTranslations } from 'next-intl';
 import { Clock2, PencilLine } from 'lucide-react';
 import dayjs from 'dayjs';
+import { startCase } from 'lodash';
 
 import { NavigateBtns } from './navigate-btns';
 
@@ -16,7 +17,7 @@ export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null
         <div className="relative z-10 mb-8 flex h-full w-full flex-col rounded-xl border-2 border-main-green bg-white p-4 text-main-green shadow-solid-lg md:flex-row">
             <div className="space-y-3 md:grow">
                 <div className="flex items-center justify-between font-medium md:justify-start">
-                    <h2 className="mr-6 text-2xl">{repoDetail.name}</h2>
+                    <h2 className="mr-6 text-2xl">{startCase(repoDetail.name)}</h2>
                     <div className="flex space-x-2">
                         {repoDetail.tags.map(tag => (
                             <div
