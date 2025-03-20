@@ -113,5 +113,20 @@
             "desc-10": "Data Handling and Export - Provides sophisticated accounting query capabilities and secure data export options, requiring password verification for enhanced data protection."
         },
         "webDevToolkits": {}
+    },
+    "payment-gateway-management-console": {
+        "keyFeatures": {
+            "desc-1": "Diversion Group Management - Allows administrators to set rules based on payment methods, installment types, and bank preferences, providing flexible control over transaction processing.",
+            "desc-2": "Payment Diversion - Enhances payment processing customization through configurable diversion rules based on specific business rules and banking conditions.",
+            "desc-3": "Exception Management - Manages exceptions for acquiring banks, ensuring continuous transaction processing without disruptions caused by anomalies.",
+            "desc-4": "Verification Inquiries - Facilitates the verification and review of transactions and settlements, helping to resolve disputes and maintain transaction integrity.",
+            "desc-5": "Remittance Record Inquiry - Tracks remittance records with detailed transaction information, including creation dates, status, and actual amounts, along with functionalities for result uploads.",
+            "desc-6": "Group Permissions and Announcement Management - Enables precise configuration of user group permissions and effective communication within the platform through the management of system-wide announcements.",
+            "desc-7": "User Management - Offers robust tools for managing user accounts, including enabling, disabling, and editing user details to ensure comprehensive access control.",
+            "desc-8": "Transaction Handling - Provides detailed functionalities for managing and querying transactions with extensive filtering options to enhance auditing and monitoring processes.",
+            "desc-9": "Report Management - Enables the generation and download of various financial reports, such as store balance and accounting reports, customizable by specific time intervals.",
+            "desc-10": "Accounting and Financial Reports - Supports detailed inquiries into financial transactions, allowing users to track, review, and export transaction data for in-depth analysis."
+        },
+        "webDevToolkits": {}
     }
 }
