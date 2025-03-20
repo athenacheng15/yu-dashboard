@@ -17,7 +17,9 @@
         "libraries": "Web Dev Toolkits",
         "report-bug": "Report bug",
         "create-issue": "Create Issue",
-        "maintain-message": "The website is under maintenance."
+        "maintain-message": "The website is under maintenance.",
+        "confidentiality-agreements": "Due to confidentiality agreements, access to the website and repository is restricted.",
+        "confidentiality-agreements-img": "Due to confidentiality agreements, some modifications have been made to the images."
     },
     "home": {
         "phase-1": "Hey there, It's Yuchun here. First of all, thank you for stopping by. It's important for me to properly document my life and career journey, allowing me to reflect on my growth. That's why I created this website. From UI design to coding, everything you see here is the result of my hard work.",
@@ -96,5 +98,20 @@
             "zod-desc": "Ensure data integrity and type safety with TypeScript-first schema declaration and validation.",
             "zustand-desc": "Simplify global state management in React applications with a minimalistic API."
         }
+    },
+    "payment-gateway-client-dashboard": {
+        "keyFeatures": {
+            "desc-1": "Two-Step Verification - Secure login with Google Authenticator to protect against unauthorized access.",
+            "desc-2": "Enhanced Login System - Utilizes a combination of identification numbers, usernames, passwords, and reCAPTCHA to enhance security against automated attacks.",
+            "desc-3": "Financial Account Management - Provides capabilities to manage, add, edit, and delete financial institution accounts, accommodating multiple banks and branches.",
+            "desc-4": "Transaction Handling - Features advanced tools for transaction management and querying, including extensive filters for date, payment method, and status, complemented by a dedicated refund management system.",
+            "desc-5": "Financial Monitoring - Displays detailed views of credit card transaction limits and offers a broad overview of financial operations to help users manage their accounts effectively.",
+            "desc-6": "Batch Job Management - Enables users to monitor and manage batch processing jobs with options to view job status, type, and access detailed summaries.",
+            "desc-7": "Withdrawal and Deposit Operations - Supports withdrawal operations with detailed information on timelines and transaction limits, alongside functionalities for setting up and managing financial accounts for deposits.",
+            "desc-8": "Security and Permissions Management - Manages user permissions through customizable groups, enhancing system security and operational efficiency with detailed access controls.",
+            "desc-9": "User Account Management - Offers a robust platform for user management, including options to add, edit, and disable users, and manage authentication and group permissions effectively.",
+            "desc-10": "Data Handling and Export - Provides sophisticated accounting query capabilities and secure data export options, requiring password verification for enhanced data protection."
+        },
+        "webDevToolkits": {}
     }
 }
