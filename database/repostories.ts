@@ -1,6 +1,12 @@
 import type { IProject } from './type';
 
-import { airbnbCloneImg, githubIssuesCloneImg, spotifyCloneImg, trelloCloneImg } from './repo-images';
+import {
+    airbnbCloneImg,
+    githubIssuesCloneImg,
+    spotifyCloneImg,
+    trelloCloneImg,
+    paymentGatewayClientDashboardImg,
+} from './repo-images';
 import { tackStacksImg } from './tech-stack-images';
 
 export const repostories: {
@@ -124,5 +130,75 @@ export const repostories: {
             { id: 'storybook', name: 'StoryBook', desc: 'storybook-desc' },
             { id: 'supabase', name: 'Supabase', desc: 'supabase-desc' },
         ],
+    },
+    'payment-gateway-client-dashboard': {
+        tags: ['FrontEnd'],
+        isConfidential: true,
+        coverImageUrl: paymentGatewayClientDashboardImg.img_3,
+        keyFeatures: [
+            'desc-1',
+            'desc-2',
+            'desc-3',
+            'desc-4',
+            'desc-5',
+            'desc-6',
+            'desc-7',
+            'desc-8',
+            'desc-9',
+            'desc-10',
+        ],
+        snapshots: [
+            {
+                id: 'payment-gateway-client-dashboard-img-1',
+                desc: 'desc-1',
+                imageUrl: paymentGatewayClientDashboardImg.img_1,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-2',
+                desc: 'desc-2',
+                imageUrl: paymentGatewayClientDashboardImg.img_2,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-3',
+                desc: 'desc-3',
+                imageUrl: paymentGatewayClientDashboardImg.img_3,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-4',
+                desc: 'desc-4',
+                imageUrl: paymentGatewayClientDashboardImg.img_4,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-5',
+                desc: 'desc-5',
+                imageUrl: paymentGatewayClientDashboardImg.img_5,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-6',
+                desc: 'desc-6',
+                imageUrl: paymentGatewayClientDashboardImg.img_6,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-7',
+                desc: 'desc-7',
+                imageUrl: paymentGatewayClientDashboardImg.img_7,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-8',
+                desc: 'desc-8',
+                imageUrl: paymentGatewayClientDashboardImg.img_8,
+            },
+            {
+                id: 'payment-gateway-client-dashboard-img-9',
+                desc: 'desc-9',
+                imageUrl: paymentGatewayClientDashboardImg.img_9,
+            },
+        ],
+        techStacks: [
+            { id: 'react-js', desc: 'react-js', imageUrl: tackStacksImg['react-js'] },
+            { id: 'typescript', desc: 'typescript', imageUrl: tackStacksImg['typescript'] },
+            { id: 'tailwindcss', desc: 'tailwindcss', imageUrl: tackStacksImg['tailwindcss'] },
+        ],
+        webDevToolkits: [],
     },
 };
