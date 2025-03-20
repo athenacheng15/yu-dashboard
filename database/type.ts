@@ -21,6 +21,7 @@ export interface IProject {
     tags: string[];
     coverImageUrl: StaticImageData;
     isWebsiteUnabled?: boolean;
+    isConfidential?: boolean;
     keyFeatures: string[];
     snapshots: ISnapshot[];
     techStacks: ITechStack[];

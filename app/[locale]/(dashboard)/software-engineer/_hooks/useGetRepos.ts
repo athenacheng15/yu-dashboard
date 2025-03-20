@@ -7,6 +7,7 @@ import axios from 'axios';
 import { pick } from 'lodash';
 
 import { repostories } from '@/database/repostories';
+import { NOTFROMGITHUBDATA } from '@/database/localRepo';
 
 interface ReturnType {
     isLoading: boolean;
@@ -27,7 +28,9 @@ export const useGetRepos = (): ReturnType => {
                 setIsloading(true);
                 const response = await axios.get('https://api.github.com/users/athenacheng15/repos', config);
                 const data: RepoType[] = response.data;
-                const displayedData = data.filter(repo => repostories.hasOwnProperty(repo.name));
+                const githubData = data.filter(repo => repostories.hasOwnProperty(repo.name));
+                const localData = NOTFROMGITHUBDATA;
+                const displayedData = [...githubData, ...localData];
                 const formattedRepos = displayedData.map(repo => ({
                     id: repo.id,
                     name: repo.name,
@@ -36,7 +39,12 @@ export const useGetRepos = (): ReturnType => {
                     homepage: repo.homepage,
                     created_at: repo.created_at,
                     updated_at: repo.updated_at,
-                    ...pick(repostories[repo.name], ['coverImageUrl', 'techStacks', 'isWebsiteUnabled']),
+                    ...pick(repostories[repo.name], [
+                        'coverImageUrl',
+                        'techStacks',
+                        'isWebsiteUnabled',
+                        'isConfidential',
+                    ]),
                 }));
                 setRepos(formattedRepos);
             } catch (error) {
@@ -47,6 +55,5 @@ export const useGetRepos = (): ReturnType => {
         };
         getRepos();
     }, []);
-
     return { isLoading, repos };
 };
