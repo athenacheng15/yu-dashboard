@@ -128,5 +128,17 @@
             "desc-10": "Accounting and Financial Reports - Supports detailed inquiries into financial transactions, allowing users to track, review, and export transaction data for in-depth analysis."
         },
         "webDevToolkits": {}
+    },
+    "express-checkout-interface": {
+        "keyFeatures": {
+            "desc-1": "Streamlined Payment Process - Provides clear, user-friendly input fields for entering essential information such as email and contact details.",
+            "desc-2": "Multiple Payment Options - Includes full credit card payments and installments, offering flexibility to users.",
+            "desc-3": "Transaction Summary - Displays comprehensive purchase details including item descriptions, pricing, and total amounts, enhancing transparency.",
+            "desc-4": "Security Features - Integrates credit card CVV input to prevent fraud and ensure transaction security.",
+            "desc-5": "Real-Time Payment Verification - Verifies payment information in real-time, reducing errors and guiding users throughout the payment process.",
+            "desc-6": "Immediate Transaction Feedback - Provides instant confirmation of payment statuses including successful, cancelled, and failed payments, along with detailed transaction summaries.",
+            "desc-7": "Scam Protection Alerts - Displays warnings to protect users from potential scam messages, enhancing trust and security."
+        },
+        "webDevToolkits": {}
     }
 }
