@@ -19,4 +19,14 @@ export const NOTFROMGITHUBDATA = [
         created_at: '',
         updated_at: '',
     },
+    {
+        id: crypto.randomUUID(),
+        name: 'express-checkout-interface',
+        description:
+            'An express checkout interface streamlining online payments with user-friendly inputs and robust security for swift, secure transactions.',
+        html_url: '',
+        homepage: '',
+        created_at: '',
+        updated_at: '',
+    },
 ];

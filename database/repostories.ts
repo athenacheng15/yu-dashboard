@@ -7,6 +7,7 @@ import {
     trelloCloneImg,
     paymentGatewayClientDashboardImg,
     paymentGatewayManagementConsoleImg,
+    expressCheckoutInterfaceImg,
 } from './repo-images';
 import { tackStacksImg } from './tech-stack-images';
 
@@ -106,7 +107,7 @@ export const repostories: {
         ],
     },
     'github-issues-clone': {
-        tags: ['FrontEnd'],
+        tags: ['Frontend'],
         coverImageUrl: githubIssuesCloneImg.img_1,
         keyFeatures: ['desc-1', 'desc-2', 'desc-3', 'desc-4', 'desc-5', 'desc-6', 'desc-7', 'desc-8'],
         snapshots: [
@@ -133,7 +134,7 @@ export const repostories: {
         ],
     },
     'payment-gateway-client-dashboard': {
-        tags: ['FrontEnd'],
+        tags: ['Frontend'],
         isConfidential: true,
         coverImageUrl: paymentGatewayClientDashboardImg.img_6,
         keyFeatures: [
@@ -243,7 +244,7 @@ export const repostories: {
         webDevToolkits: [],
     },
     'payment-gateway-management-console': {
-        tags: ['FrontEnd'],
+        tags: ['Frontend'],
         isConfidential: true,
         coverImageUrl: paymentGatewayManagementConsoleImg.img_5,
         keyFeatures: [
@@ -344,6 +345,56 @@ export const repostories: {
             { id: 'react-js', desc: 'react-js', imageUrl: tackStacksImg['react-js'] },
             { id: 'typescript', desc: 'typescript', imageUrl: tackStacksImg['typescript'] },
             { id: 'tailwindcss', desc: 'tailwindcss', imageUrl: tackStacksImg['tailwindcss'] },
+        ],
+        webDevToolkits: [],
+    },
+    'express-checkout-interface': {
+        tags: ['Frontend'],
+        isConfidential: true,
+        coverImageUrl: expressCheckoutInterfaceImg.img_1,
+        keyFeatures: ['desc-1', 'desc-2', 'desc-3', 'desc-4', 'desc-5', 'desc-6', 'desc-7'],
+        snapshots: [
+            {
+                id: 'express-checkout-interface-img-1',
+                desc: 'desc-1',
+                imageUrl: expressCheckoutInterfaceImg.img_1,
+            },
+            {
+                id: 'express-checkout-interface-img-2',
+                desc: 'desc-2',
+                imageUrl: expressCheckoutInterfaceImg.img_2,
+            },
+            {
+                id: 'express-checkout-interface-img-3',
+                desc: 'desc-3',
+                imageUrl: expressCheckoutInterfaceImg.img_3,
+            },
+            {
+                id: 'express-checkout-interface-img-4',
+                desc: 'desc-4',
+                imageUrl: expressCheckoutInterfaceImg.img_4,
+            },
+            {
+                id: 'express-checkout-interface-img-5',
+                desc: 'desc-5',
+                imageUrl: expressCheckoutInterfaceImg.img_5,
+            },
+            {
+                id: 'express-checkout-interface-img-6',
+                desc: 'desc-6',
+                imageUrl: expressCheckoutInterfaceImg.img_6,
+            },
+            {
+                id: 'express-checkout-interface-img-7',
+                desc: 'desc-7',
+                imageUrl: expressCheckoutInterfaceImg.img_7,
+            },
+        ],
+        techStacks: [
+            { id: 'react-js', desc: 'react-js', imageUrl: tackStacksImg['react-js'] },
+            { id: 'typescript', desc: 'typescript', imageUrl: tackStacksImg['typescript'] },
+            { id: 'styled-components', desc: 'styled-components', imageUrl: tackStacksImg['styled-components'] },
+            { id: 'redux', desc: 'redux', imageUrl: tackStacksImg['redux'] },
         ],
         webDevToolkits: [],
     },
