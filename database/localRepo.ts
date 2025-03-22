@@ -1,7 +1,7 @@
 export const NOTFROMGITHUBDATA = [
     {
         id: crypto.randomUUID(),
-        name: 'payment-gateway-client-dashboard',
+        name: 'QT-payments-client-dashboard',
         description:
             "A third-party payment system's client dashboard, offering tools for secure transaction management, payment processing, and user authentication. ",
         html_url: '',
@@ -11,7 +11,7 @@ export const NOTFROMGITHUBDATA = [
     },
     {
         id: crypto.randomUUID(),
-        name: 'payment-gateway-management-console',
+        name: 'QT-payments-management-console',
         description:
             'A streamlined management console for payment gateways, offering key tools for transaction oversight, user management, and financial reporting. ',
         html_url: '',
