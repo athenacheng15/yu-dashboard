@@ -30,8 +30,11 @@ export default function SoftwareEngineerPage() {
             <Title repoDetail={repoDetail} />
             <Block icon={<Settings />} title={t('common.features')}>
                 <ul className="ml-6 list-disc text-justify md:ml-12">
-                    {repoData.keyFeatures.map(desc => (
-                        <li key={crypto.randomUUID()}>{t(`${repoName}.keyFeatures.${desc}`)}</li>
+                    {repoData.keyFeatures.map(({ title, desc }) => (
+                        <li className="mb-2" key={crypto.randomUUID()}>
+                            <p className="font-semibold">{t(`${repoName}.keyFeatures.titles.${title}`)}</p>
+                            <p className="text-gray-500">{t(`${repoName}.keyFeatures.descriptions.${desc}`)}</p>
+                        </li>
                     ))}
                 </ul>
             </Block>
