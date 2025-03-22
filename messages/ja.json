@@ -147,7 +147,7 @@
             "zustand-desc": "ミニマリスティックなAPIを使用してReactアプリケーションでグローバル状態管理を簡素化します。"
         }
     },
-    "payment-gateway-client-dashboard": {
+    "QT-payments-client-dashboard": {
         "keyFeatures": {
             "titles": {
                 "title-1": "二段階認証",
@@ -176,7 +176,7 @@
         },
         "webDevToolkits": {}
     },
-    "payment-gateway-management-console": {
+    "QT-payments-management-console": {
         "keyFeatures": {
             "titles": {
                 "title-1": "分流グループ管理",

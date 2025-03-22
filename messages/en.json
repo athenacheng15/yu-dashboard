@@ -147,7 +147,7 @@
             "zustand-desc": "Simplify global state management in React applications with a minimalistic API."
         }
     },
-    "payment-gateway-client-dashboard": {
+    "QT-payments-client-dashboard": {
         "keyFeatures": {
             "titles": {
                 "title-1": "Two-Step Verification",
@@ -176,7 +176,7 @@
         },
         "webDevToolkits": {}
     },
-    "payment-gateway-management-console": {
+    "QT-payments-management-console": {
         "keyFeatures": {
             "titles": {
                 "title-1": "Diversion Group Management",
