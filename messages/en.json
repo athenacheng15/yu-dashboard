@@ -29,15 +29,28 @@
     },
     "airbnb-clone": {
         "keyFeatures": {
-            "desc-1": "Implement search filters for guests to find accommodations by property, location, dates, and room specifics.",
-            "desc-2": "Group houses by property type, allowing users to select from the homepage.",
-            "desc-3": "Provide detailed pages with photos, descriptions, availability, and pricing for informed choices.",
-            "desc-4": "Use a date picker for stay periods and automatic price calculation.",
-            "desc-5": "Add a wishlist feature for saving and organizing properties.",
-            "desc-6": "Allow hosts to upload listings with photos, location, pricing, and room details.",
-            "desc-7": "Display booked trips with cancellation options.",
-            "desc-8": "List hosts' properties with delete functionality.",
-            "desc-9": "Enable login/signup via email, Google, or GitHub accounts."
+            "titles": {
+                "title-1": "Search Filters",
+                "title-2": "Category Grouping",
+                "title-3": "Detailed Property Page",
+                "title-4": "Date & Pricing",
+                "title-5": "Wishlist",
+                "title-6": "Property Listing",
+                "title-7": "Booking Management",
+                "title-8": "Property Management",
+                "title-9": "Auth System"
+            },
+            "descriptions": {
+                "desc-1": "Users can search for stays by location, dates, number of guests, and room details.",
+                "desc-2": "Properties are grouped by type (e.g., Beach, CountrySide, Modern) and can be selected from the homepage.",
+                "desc-3": "Each property has a detailed page with images, descriptions, availability, and pricing.",
+                "desc-4": "Stay dates can be selected with a calendar, and the system calculates the total price automatically.",
+                "desc-5": "Users can save and organize properties they like into a wishlist.",
+                "desc-6": "Hosts can list their properties by uploading images, location, pricing, and room details.",
+                "desc-7": "Displays booked trips with options to cancel reservations.",
+                "desc-8": "Hosts can view and manage their properties, including deleting them.",
+                "desc-9": "Supports user login and registration via email, Google, and GitHub."
+            }
         },
         "webDevToolkits": {
             "nextauth-desc": "Add authentication to project for various login methods.",
@@ -47,14 +60,26 @@
     },
     "github-issues-clone": {
         "keyFeatures": {
-            "desc-1": "Allows users to list, create, update, and delete labels for better organization of issues.",
-            "desc-2": "Provides a comprehensive view of issues, including their state, title, labels, number, and other relevant details.",
-            "desc-3": "Offers pagination and various filters such as 'Your issues,' 'Everything assigned to you,' and 'Everything mentioning you'.",
-            "desc-4": "Supports filtering by state, label, and assignee, and sorting options include newest, oldest, most commented, and more.",
-            "desc-5": "Displays detailed information about individual issues, including title, state, user, creation/closing timestamps, comments, assignees, and labels.",
-            "desc-6": "Allows users to list, create, update comments, and view a timeline and reactions for additional context.",
-            "desc-7": "Enables users to create new issues with specified titles, descriptions, assignees, and labels, supporting Markdown for formatting.",
-            "desc-8": "Allows users to securely authenticate and access the platform using Github OAuth authentication."
+            "titles": {
+                "title-1": "Label Management",
+                "title-2": "Issue Overview",
+                "title-3": "Pagination & Quick Filters",
+                "title-4": "Advanced Filtering & Sorting",
+                "title-5": "Issue Details Display",
+                "title-6": "Comments & Activity Log",
+                "title-7": "Create New Issue",
+                "title-8": "GitHub OAuth Login"
+            },
+            "descriptions": {
+                "desc-1": "Allows users to list, create, update, and delete labels for organizing issues effectively.",
+                "desc-2": "Provides a complete view of issues, including status, title, labels, number, and other relevant details.",
+                "desc-3": "Supports pagination and quick filters like 'Your issues', 'Assigned to you', and 'Mentioning you'.",
+                "desc-4": "Enables filtering by state, label, and assignee, with sorting options such as newest, oldest, or most commented.",
+                "desc-5": "Displays detailed information of each issue including timestamps, comments, assignees, and labels.",
+                "desc-6": "Lets users create and update comments, and view a complete timeline with reactions.",
+                "desc-7": "Allows users to create new issues with title, description, assignees, and labels, supporting Markdown formatting.",
+                "desc-8": "Authenticates users securely via GitHub OAuth for platform access."
+            }
         },
         "webDevToolkits": {
             "storybook-desc": "Facilitate the development, testing, and documentation of UI components in isolation.",
@@ -63,13 +88,24 @@
     },
     "spotify-clone": {
         "keyFeatures": {
-            "desc-1": "Song management with features like upload, play, favorites, and playlists.",
-            "desc-2": "Integration of Stripe for recurring payments and cancellation.",
-            "desc-3": "Handling of databases using Supabase and PostgreSQL.",
-            "desc-4": "Design of sleek UI with Tailwind, including animations and responsiveness.",
-            "desc-5": "Implementation of authentication with credentials and GitHub, ensuring secure user registration and login processes.",
-            "desc-6": "The server-side routes and handlers for POST, GET, and DELETE requests.",
-            "desc-7": "Real-time data fetching and management of component relations without APIs."
+            "titles": {
+                "title-1": "Song Management Features",
+                "title-2": "Subscription Integration",
+                "title-3": "Database Handling",
+                "title-4": "Modern UI Design",
+                "title-5": "Secure Authentication",
+                "title-6": "Server Route Handling",
+                "title-7": "Real-time Data Management"
+            },
+            "descriptions": {
+                "desc-1": "Includes song upload, play, favorite, and playlist features to help users manage their music library.",
+                "desc-2": "Integrates Stripe for handling subscription and cancellation of recurring payments.",
+                "desc-3": "Handles data storage and queries using Supabase and PostgreSQL.",
+                "desc-4": "Designed with TailwindCSS to provide a modern, animated, and responsive interface.",
+                "desc-5": "Implements secure authentication via credentials and GitHub login.",
+                "desc-6": "Supports POST, GET, and DELETE server-side route operations for full data interaction.",
+                "desc-7": "Manages component state and real-time data updates without relying on external APIs."
+            }
         },
         "webDevToolkits": {
             "supabase-desc": "Handling database operations and implementing authentication with credentials and GitHub.",
@@ -79,14 +115,26 @@
     },
     "trello-clone": {
         "keyFeatures": {
-            "desc-1": "Landing page.",
-            "desc-2": "Auth for Organizational and Personal Workspace Usage Rights.",
-            "desc-3": "Fetching Unsplash image API for random beautiful cover images.",
-            "desc-4": "CRUD Operations for Boards, Lists, and Cards.",
-            "desc-5": "Activity log for Card and entire organization.",
-            "desc-6": "Rename, drag & drop reorder and copy functions of List and Card.",
-            "desc-7": "Board limit for every organization.",
-            "desc-8": "Stripe subscription for each organization to unlock unlimited boards."
+            "titles": {
+                "title-1": "Landing Page",
+                "title-2": "Authentication",
+                "title-3": "Dynamic Cover Images",
+                "title-4": "CRUD Operations",
+                "title-5": "Activity Logs",
+                "title-6": "List and Card Management",
+                "title-7": "Board Limits",
+                "title-8": "Unlimited Boards"
+            },
+            "descriptions": {
+                "desc-1": "Provides an entry page to ensure a smooth user experience and navigation.",
+                "desc-2": "Manages access permissions for organizations and personal workspaces, ensuring security and controlled usage.",
+                "desc-3": "Uses the Unsplash API to fetch high-quality random cover images, enhancing visual appeal.",
+                "desc-4": "Offers create, read, update, and delete (CRUD) functionalities for boards, lists, and cards, facilitating efficient project management.",
+                "desc-5": "Maintains activity records for both individual cards and the entire organization, promoting transparency and traceability.",
+                "desc-6": "Supports renaming, drag-and-drop reordering, and duplication of lists and cards for flexible task management.",
+                "desc-7": "Sets board limits for each organization to ensure system performance and manageability.",
+                "desc-8": "Unlocks unlimited boards through Stripe subscriptions, enabling large-scale project expansion."
+            }
         },
         "webDevToolkits": {
             "clerk-desc": "Simplify user authentication and identity management with customizable features.",
@@ -101,32 +149,84 @@
     },
     "payment-gateway-client-dashboard": {
         "keyFeatures": {
-            "desc-1": "Two-Step Verification - Secure login with Google Authenticator to protect against unauthorized access.",
-            "desc-2": "Enhanced Login System - Utilizes a combination of identification numbers, usernames, passwords, and reCAPTCHA to enhance security against automated attacks.",
-            "desc-3": "Financial Account Management - Provides capabilities to manage, add, edit, and delete financial institution accounts, accommodating multiple banks and branches.",
-            "desc-4": "Transaction Handling - Features advanced tools for transaction management and querying, including extensive filters for date, payment method, and status, complemented by a dedicated refund management system.",
-            "desc-5": "Financial Monitoring - Displays detailed views of credit card transaction limits and offers a broad overview of financial operations to help users manage their accounts effectively.",
-            "desc-6": "Batch Job Management - Enables users to monitor and manage batch processing jobs with options to view job status, type, and access detailed summaries.",
-            "desc-7": "Withdrawal and Deposit Operations - Supports withdrawal operations with detailed information on timelines and transaction limits, alongside functionalities for setting up and managing financial accounts for deposits.",
-            "desc-8": "Security and Permissions Management - Manages user permissions through customizable groups, enhancing system security and operational efficiency with detailed access controls.",
-            "desc-9": "User Account Management - Offers a robust platform for user management, including options to add, edit, and disable users, and manage authentication and group permissions effectively.",
-            "desc-10": "Data Handling and Export - Provides sophisticated accounting query capabilities and secure data export options, requiring password verification for enhanced data protection."
+            "titles": {
+                "title-1": "Two-Step Verification",
+                "title-2": "Enhanced Login System",
+                "title-3": "Financial Account Management",
+                "title-4": "Transaction Handling",
+                "title-5": "Financial Monitoring",
+                "title-6": "Batch Job Management",
+                "title-7": "Withdrawal and Deposit Operations",
+                "title-8": "Security and Permissions Management",
+                "title-9": "User Account Management",
+                "title-10": "Data Handling and Export"
+            },
+            "descriptions": {
+                "desc-1": "Secure login with Google Authenticator to protect against unauthorized access.",
+                "desc-2": "Utilizes a combination of identification numbers, usernames, passwords, and reCAPTCHA to enhance security against automated attacks.",
+                "desc-3": "Provides capabilities to manage, add, edit, and delete financial institution accounts, accommodating multiple banks and branches.",
+                "desc-4": "Features advanced tools for transaction management and querying, including extensive filters for date, payment method, and status, complemented by a dedicated refund management system.",
+                "desc-5": "Displays detailed views of credit card transaction limits and offers a broad overview of financial operations to help users manage their accounts effectively.",
+                "desc-6": "Enables users to monitor and manage batch processing jobs with options to view job status, type, and access detailed summaries.",
+                "desc-7": "Supports withdrawal operations with detailed information on timelines and transaction limits, alongside functionalities for setting up and managing financial accounts for deposits.",
+                "desc-8": "Manages user permissions through customizable groups, enhancing system security and operational efficiency with detailed access controls.",
+                "desc-9": "Offers a robust platform for user management, including options to add, edit, and disable users, and manage authentication and group permissions effectively.",
+                "desc-10": "Provides sophisticated accounting query capabilities and secure data export options, requiring password verification for enhanced data protection."
+            }
         },
         "webDevToolkits": {}
     },
     "payment-gateway-management-console": {
         "keyFeatures": {
-            "desc-1": "Diversion Group Management - Allows administrators to set rules based on payment methods, installment types, and bank preferences, providing flexible control over transaction processing.",
-            "desc-2": "Payment Diversion - Enhances payment processing customization through configurable diversion rules based on specific business rules and banking conditions.",
-            "desc-3": "Exception Management - Manages exceptions for acquiring banks, ensuring continuous transaction processing without disruptions caused by anomalies.",
-            "desc-4": "Verification Inquiries - Facilitates the verification and review of transactions and settlements, helping to resolve disputes and maintain transaction integrity.",
-            "desc-5": "Remittance Record Inquiry - Tracks remittance records with detailed transaction information, including creation dates, status, and actual amounts, along with functionalities for result uploads.",
-            "desc-6": "Group Permissions and Announcement Management - Enables precise configuration of user group permissions and effective communication within the platform through the management of system-wide announcements.",
-            "desc-7": "User Management - Offers robust tools for managing user accounts, including enabling, disabling, and editing user details to ensure comprehensive access control.",
-            "desc-8": "Transaction Handling - Provides detailed functionalities for managing and querying transactions with extensive filtering options to enhance auditing and monitoring processes.",
-            "desc-9": "Report Management - Enables the generation and download of various financial reports, such as store balance and accounting reports, customizable by specific time intervals.",
-            "desc-10": "Accounting and Financial Reports - Supports detailed inquiries into financial transactions, allowing users to track, review, and export transaction data for in-depth analysis."
+            "titles": {
+                "title-1": "Diversion Group Management",
+                "title-2": "Payment Diversion",
+                "title-3": "Exception Management",
+                "title-4": "Verification Inquiries",
+                "title-5": "Remittance Record Inquiry",
+                "title-6": "Group Permissions and Announcement Management",
+                "title-7": "User Management",
+                "title-8": "Transaction Handling",
+                "title-9": "Report Management",
+                "title-10": "Accounting and Financial Reports"
+            },
+            "descriptions": {
+                "desc-1": "Allows administrators to set rules based on payment methods, installment types, and bank preferences, providing flexible control over transaction processing.",
+                "desc-2": "Enhances payment processing customization through configurable diversion rules based on specific business rules and banking conditions.",
+                "desc-3": "Manages exceptions for acquiring banks, ensuring continuous transaction processing without disruptions caused by anomalies.",
+                "desc-4": "Facilitates the verification and review of transactions and settlements, helping to resolve disputes and maintain transaction integrity.",
+                "desc-5": "Tracks remittance records with detailed transaction information, including creation dates, status, and actual amounts, along with functionalities for result uploads.",
+                "desc-6": "Enables precise configuration of user group permissions and effective communication within the platform through the management of system-wide announcements.",
+                "desc-7": "Offers robust tools for managing user accounts, including enabling, disabling, and editing user details to ensure comprehensive access control.",
+                "desc-8": "Provides detailed functionalities for managing and querying transactions with extensive filtering options to enhance auditing and monitoring processes.",
+                "desc-9": "Enables the generation and download of various financial reports, such as store balance and accounting reports, customizable by specific time intervals.",
+                "desc-10": "Supports detailed inquiries into financial transactions, allowing users to track, review, and export transaction data for in-depth analysis."
+            }
+        },
+        "webDevToolkits": {}
+    },
+    "express-checkout-interface": {
+        "keyFeatures": {
+            "titles": {
+                "title-1": "Streamlined Payment Process",
+                "title-2": "Multiple Payment Options",
+                "title-3": "Transaction Summary",
+                "title-4": "Security Features",
+                "title-5": "Real-Time Payment Verification",
+                "title-6": "Immediate Transaction Feedback",
+                "title-7": "Scam Protection Alerts"
+            },
+            "descriptions": {
+                "desc-1": "Provides clear, user-friendly input fields for entering essential information such as email and contact details.",
+                "desc-2": "Includes full credit card payments and installments, offering flexibility to users.",
+                "desc-3": "Displays comprehensive purchase details including item descriptions, pricing, and total amounts, enhancing transparency.",
+                "desc-4": "Integrates credit card CVV input to prevent fraud and ensure transaction security.",
+                "desc-5": "Verifies payment information in real-time, reducing errors and guiding users throughout the payment process.",
+                "desc-6": "Provides instant confirmation of payment statuses including successful, cancelled, and failed payments, along with detailed transaction summaries.",
+                "desc-7": "Displays warnings to protect users from potential scam messages, enhancing trust and security."
+            }
         },
         "webDevToolkits": {}
     }
 }
+
