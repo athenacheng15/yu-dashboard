@@ -147,7 +147,7 @@
             "zustand-desc": "通過極簡的 API 在 React 應用程式中簡化全域狀態管理。"
         }
     },
-    "payment-gateway-client-dashboard": {
+    "QT-payments-client-dashboard": {
         "keyFeatures": {
             "titles": {
                 "title-1": "兩步驟驗證",
@@ -176,7 +176,7 @@
         },
         "webDevToolkits": {}
     },
-    "payment-gateway-management-console": {
+    "QT-payments-management-console": {
         "keyFeatures": {
             "titles": {
                 "title-1": "分流群組管理",
