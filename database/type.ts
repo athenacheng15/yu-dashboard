@@ -22,7 +22,7 @@ export interface IProject {
     coverImageUrl: StaticImageData;
     isWebsiteUnabled?: boolean;
     isConfidential?: boolean;
-    keyFeatures: string[];
+    keyFeatures: { title: string; desc: string }[];
     snapshots: ISnapshot[];
     techStacks: ITechStack[];
     webDevToolkits: IWebDevToolkit[];

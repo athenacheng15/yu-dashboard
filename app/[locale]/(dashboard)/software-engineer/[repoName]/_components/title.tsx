@@ -29,7 +29,7 @@ export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null
                         ))}
                     </div>
                 </div>
-                <p className="text-sm text-gray-600">{repoDetail.description}</p>
+                <p className="text-sm text-gray-500">{repoDetail.description}</p>
                 <p className="text-sm text-gray-400">({t('confidentiality-agreements-img')})</p>
                 <div className="flex flex-wrap justify-between">
                     {(repoDetail.created_at || repoDetail.updated_at) && (
@@ -54,9 +54,7 @@ export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null
                     )}
                     <div className="flex space-x-2 md:hidden">
                         {repoDetail.isConfidential ? (
-                            <p className="text-sm text-gray-300">
-                                Due to confidentiality agreements, access to the website and repository is restricted.
-                            </p>
+                            <p className="text-sm text-gray-400">{t('confidentiality-agreements')}</p>
                         ) : (
                             <NavigateBtns
                                 isWebsiteUnabled={repoDetail.isWebsiteUnabled}
@@ -70,7 +68,7 @@ export const Title = ({ repoDetail }: { repoDetail: DisplayRepoDetailType | null
             <div className="mx-4 hidden w-[2px] bg-[#92AA94] md:block"></div>
             <div className="hidden w-40 min-w-36 flex-col items-center justify-center space-y-4 md:flex">
                 {repoDetail.isConfidential ? (
-                    <p className="text-sm text-gray-300">{t('confidentiality-agreements')}</p>
+                    <p className="text-sm text-gray-400">{t('confidentiality-agreements')}</p>
                 ) : (
                     <NavigateBtns
                         isWebsiteUnabled={repoDetail.isWebsiteUnabled}
