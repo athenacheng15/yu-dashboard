@@ -7,6 +7,7 @@ import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { Settings, Image as ImageIcon, Database, Blocks } from 'lucide-react';
 import { get } from 'lodash';
+import { v4 as uuidv4 } from 'uuid';
 
 import { repostories } from '@/database/repostories';
 import { webDevToolkitImgUrl } from '@/database/webDevToolkitImgUrl';
@@ -18,7 +19,7 @@ import { Title } from './_components/title';
 import Image from 'next/image';
 
 export default function SoftwareEngineerPage() {
-    const { repoName } = useParams();
+    const { repoName } = useParams<{ repoName: string }>();
     const t = useTranslations();
 
     // TODO: lodaing
@@ -31,7 +32,7 @@ export default function SoftwareEngineerPage() {
             <Block icon={<Settings />} title={t('common.features')}>
                 <ul className="ml-6 list-disc text-justify md:ml-12">
                     {repoData.keyFeatures.map(({ title, desc }) => (
-                        <li className="mb-2" key={crypto.randomUUID()}>
+                        <li className="mb-2" key={uuidv4()}>
                             <p className="font-semibold">{t(`${repoName}.keyFeatures.titles.${title}`)}</p>
                             <p className="text-gray-500">{t(`${repoName}.keyFeatures.descriptions.${desc}`)}</p>
                         </li>
